@@ -25,6 +25,9 @@ Route::get('/admin', function () {
 Route::get('/colocation', function () {
     return view('admin/colocation');
 });
+Route::get('/yola', function () {
+    return view('formulirpermohonanvpsbaru');
+});
 
 Route::get('/Server/Colocation-Server', function () {
     return view('Colocation-Server');
