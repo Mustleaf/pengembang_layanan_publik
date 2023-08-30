@@ -82,9 +82,13 @@
                                             <input type="checkbox" id="modal-1" class="modal-toggle" />
                                             <div class="modal">
                                                 <div class="modal-box">
-                                                    <h3 class="font-bold text-lg">Modal 1</h3>
+                                                    <h3 class="font-bold text-lg">Detail</h3>
                                                     <div class="modal-action">
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
+                                                    </div>
+                                                    <div class="px-3 flex justify-start">
+                                                        <h3 class="text-highlight fs-5">Nomor Formulir :</h3>
+                                                        <h3 class="text-[#A3AED0] fs-5"></h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -92,7 +96,7 @@
                                             <input type="checkbox" id="modal-2" class="modal-toggle" />
                                             <div class="modal">
                                                 <div class="modal-box">
-                                                    <h3 class="font-bold text-lg">Modal 2</h3>
+                                                    <h3 class="font-bold text-lg">Edit</h3>
                                                     <div class="modal-action">
                                                         <label for="modal-2" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
@@ -101,10 +105,11 @@
 
                                             <input type="checkbox" id="modal-3" class="modal-toggle" />
                                             <div class="modal">
-                                                <div class="modal-box">
-                                                    <h3 class="font-bold text-lg">Modal 3</h3>
-                                                    <div class="modal-action">
-                                                        <label for="modal-3" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
+                                                <div class="modal-box py-3">
+                                                    <h3 class="text-[#000000] fs-5">Apakah Anda yakin untuk menghapus data ?</h3>
+                                                    <div class="modal-action flex justify-center">
+                                                        <label for="modal-3" class="btn btn-md btn-outline btn-error text-[#FFFFFF]">YES</label>
+                                                        <label for="modal-3" class="btn btn-md btn-outline btn-primary text-[#FFFFFF]">NO</label>
                                                     </div>
                                                 </div>
                                             </div>
