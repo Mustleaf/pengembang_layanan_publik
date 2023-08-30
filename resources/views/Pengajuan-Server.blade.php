@@ -13,77 +13,142 @@
 
 
                     <form>
-                        <div class="row">
-                            <div class="col-md-6 mb-2">
+                        <div class="row border rounded">
+                            <div class="col-md-6 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nomor :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
+
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Sifat :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="row">
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Lampiran :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
+
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Perihal :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="row">
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Instansi :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
+
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Tujuan :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="row">
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
+
                             <div class="col-md-6 mb-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No Telepon :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="form-outline mb-2">
-                            <label class="form-label" for="">Keperluan :</label>
-                            <input type="text" id="" class="form-control" />
-                        </div>
-
-                        <div class="row mt-5">
-                            <div class="col-md-8">
+                            <div class="col-md-12 mb-2">
                                 <div class="form-outline">
-                                    <label class="form-label fs-5" for="">Tambah Data</label>
-                                    <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
-                                    <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                    <label class="form-label" for="">Keperluan :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-8 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label fs-5" for="">Tambah Data</label>
+                                        <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                        <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row border rounded mt-3">
+                            <div class="col-md-6 mb-2 mt-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Nomor :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Sifat :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Lampiran :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Perihal :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Nama Instansi :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Tujuan :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Nama :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">No Telepon :</label>
+                                    <input type="text" id="" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 mb-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="">Keperluan :</label>
+                                    <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
                         </div>

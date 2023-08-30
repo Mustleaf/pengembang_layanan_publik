@@ -60,55 +60,55 @@
                         </div>
 
                         <h6>Formulir Perangkat Colocation </h6>
-                        <div class="row border rounded mb-3">
-                            <div class="col-2 mb-2">
+                        <div class="row border rounded mb-3 mt-2">
+                            <div class="col-2 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-10 mb-2">
+                            <div class="col-10 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Keterangan :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-6 mb-2">
+                            <div class="col-6">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Perangkat :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-6 mb-2">
+                            <div class="col-6">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nomor Seri :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-6 mb-2">
+                            <div class="col-6 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Merk Perangkat :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
                             <div class="row mt-2">
-                            <div class="col-md-8 mb-2">
-                                <div class="form-outline">
-                                    <label class="form-label fs-5" for="">Tambah Data</label>
-                                    <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
-                                    <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                <div class="col-md-8 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label fs-5" for="">Tambah Data</label>
+                                        <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                        <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
                         <div class="row border rounded mb-4">
-                            <div class="col-2 mb-2 ">
+                            <div class="col-2 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-10 mb-2">
+                            <div class="col-10 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Keterangan :</label>
                                     <input type="text" id="" class="form-control" />
@@ -137,13 +137,13 @@
 
                         <h6>Formulir Hak Akses Server</h6>
                         <div class="row border rounded mb-3">
-                            <div class="col-2 mb-2">
+                            <div class="col-2 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-7 mb-2">
+                            <div class="col-7 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Personil yang Memiliki Hak Akses Server :</label>
                                     <input type="text" id="" class="form-control" />
@@ -167,21 +167,30 @@
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
+                            <div class="row mt-2">
+                                <div class="col-md-8 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label fs-5" for="">Tambah Data</label>
+                                        <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                        <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="row border rounded mb-4">
-                            <div class="col-2 mb-2">
+                            <div class="col-2 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-7 mb-2">
+                            <div class="col-7 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Personil yang Memiliki Hak Akses Server :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-3 mb-2">
+                            <div class="col-3 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">No. Hp :</label>
                                     <input type="text" id="" class="form-control" />
