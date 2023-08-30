@@ -24,13 +24,13 @@
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
                 <div class="col-md-3 mb-2 mb-md-0">
                     <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none fs-3">
-                        <b>FORMULIR</b>
+                        <b style="color: #2B3674">FORMULIR</b>
                     </a>
                 </div>
 
                 <ul class="nav fs-5">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="color: #2B3674" class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Server
                         </a>
                         <ul class="dropdown-menu">
@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="color: #2B3674" class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sertifikat Elektronik
                         </a>
                         <ul class="dropdown-menu">
@@ -49,7 +49,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="color: #2B3674" class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             VPS
                         </a>
                         <ul class="dropdown-menu">
@@ -61,7 +61,7 @@
                 </ul>
 
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-primary btn-lg">LOGIN</button>
+                    <button type="button" class="btn btn-lg" style="background-color: #2D40EA; color:#fff" >LOGIN</button>
                 </div>
             </header>
         </div>
