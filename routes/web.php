@@ -29,7 +29,7 @@ Route::get('/yola', function () {
     return view('formulirpermohonanvpsbaru');
 });
 
-Route::get('/server/solocation-server', function () {
+Route::get('/server/colocation-server', function () {
     return view('Colocation-Server');
 });
 
@@ -57,9 +57,11 @@ Route::get('/vps/perubahan-vps', function () {
     return view('Perubahan-VPS');
 });
 
-Route::get('/server/pengajuan-server', function () {
+Route::get('/vps/pengajuan-server', function () {
     return view('Pengajuan-Server');
 });
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

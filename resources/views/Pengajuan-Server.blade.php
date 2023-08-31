@@ -21,7 +21,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Sifat :</label>
                                     <input type="text" id="" class="form-control" />
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 mt-2">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Sifat :</label>
                                     <input type="text" id="" class="form-control" />
