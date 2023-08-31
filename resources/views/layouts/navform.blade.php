@@ -9,6 +9,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -18,7 +19,7 @@
     </style>
 </head>
 
-<body>
+<body style="font-family: DM sans;">
     <nav class="shadow rounded">
         <div class="container">
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
@@ -34,9 +35,9 @@
                             Server
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{url ('Server/Colocation-Server')}}">Colocation Server</a></li>
-                            <li><a class="dropdown-item" href="{{url ('Server/Pengajuan-Server')}}">Pengajuan Server</a></li>
-                            <li><a class="dropdown-item" href="{{url ('Server/Akses-Fisik')}}">Akses Fisik Data Center</a></li>
+                            <li><a class="dropdown-item" href="{{url ('server/colocation-server')}}">Colocation Server</a></li>
+                            <li><a class="dropdown-item" href="{{url ('server/pengajuan-server')}}">Pengajuan Server</a></li>
+                            <li><a class="dropdown-item" href="{{url ('server/akses-fisik')}}">Akses Fisik Data Center</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -44,8 +45,8 @@
                             Sertifikat Elektronik
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{url ('Sertifikat-Elektronik/Single-User')}}">Single User</a></li>
-                            <li><a class="dropdown-item" href="{{url ('Sertifikat-Elektronik/Multi-User')}}">Multi User</a></li>
+                            <li><a class="dropdown-item" href="{{url ('sertifikat-elektronik/single-user')}}">Single User</a></li>
+                            <li><a class="dropdown-item" href="{{url ('sertifikat-elektronik/multi-user')}}">Multi User</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -53,9 +54,9 @@
                             VPS
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{url ('VPS/Permohonan-VPS')}}">Permohonan VPS Baru</a></li>
-                            <li><a class="dropdown-item" href="{{url ('VPS/Perubahan-VPS')}}">Permohonan Perubahan VPS</a></li>
-                            <li><a class="dropdown-item" href="{{url ('VPS/Pengajuan-Server')}}">Surat Pengantar Pengajuan Server</a></li>
+                            <li><a class="dropdown-item" href="{{url ('vps/permohonan-vps')}}">Permohonan VPS Baru</a></li>
+                            <li><a class="dropdown-item" href="{{url ('vps/perubahan-vps')}}">Permohonan Perubahan VPS</a></li>
+                            <li><a class="dropdown-item" href="{{url ('vps/pengajuan-server')}}">Surat Pengantar Pengajuan Server</a></li>
                         </ul>
                     </li>
                 </ul>
