@@ -61,7 +61,7 @@ Route::get('/vps/pengajuan-server', function () {
     return view('Pengajuan-Server');
 });
 
-
+Route::get('/testing', [App\Http\Controllers\TestingController::class, 'index'])->name('testing');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
