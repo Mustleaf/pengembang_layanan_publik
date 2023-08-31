@@ -18,6 +18,7 @@ export default {
             colors: {
                 'highlight' : '#2B3674',
                 'text' : '#A3AED0',
+                'purple' : '#4318FF',
                 'btn' : '#05CD99',
                 'admin' : '#F4F7FE',
             },

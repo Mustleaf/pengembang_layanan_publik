@@ -14,27 +14,58 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+//Admin
 
 Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('/colocation-server', function () {
-    return view('admin/colocation');
+Route::get('/admin/colocation-server', function () {
+    return view('admin/colocation-server');
 });
-Route::get('/yola', function () {
-    return view('formulirpermohonanvpsbaru');
+
+Route::get('/admin/akses-fisik', function () {
+    return view('admin/akses-fisik');
+});
+
+Route::get('/admin/single-user', function () {
+    return view('admin/single-user');
+});
+
+Route::get('/admin/multi-user', function () {
+    return view('admin/multi-user');
+});
+
+Route::get('/admin/permohonan-vps', function () {
+    return view('admin/permohonan-vps');
+});
+
+Route::get('/admin/perubahan-vps', function () {
+    return view('admin/perubahan-vps');
+});
+
+Route::get('/admin/pengajuan-server', function () {
+    return view('admin/pengajuan-server');
+});
+
+
+
+
+
+
+
+
+
+
+
+// Public
+
+Route::get('/', function () {
+    return view('dashboard');
 });
 
 Route::get('/server/colocation-server', function () {
     return view('Colocation-Server');
-});
-
-Route::get('/server/pengajuan-vps', function () {
-    return view('Pengajuan-VPS');
 });
 
 Route::get('/server/akses-fisik', function () {
