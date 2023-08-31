@@ -22,7 +22,7 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('/colocation-server', function () {
+Route::get('/admin/colocation-server', function () {
     return view('admin/colocation');
 });
 Route::get('/yola', function () {

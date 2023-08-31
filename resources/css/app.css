@@ -4,8 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  [type='text'], 
+@layer components { 
   input:where(:not([type])), 
   [type='email'], 
   [type='url'], 
@@ -22,9 +21,17 @@
   textarea, 
   select {
     
+    padding: 8px 12px;
     border-radius: 4px;
     width: 208px;
     border-color: #DDDDDD;
+  }
+
+  [type='text'] {
+    width: 50%;
+    border-color: #DDDDDD;
+    border-radius: 4px;
+    margin: 15px 0;
   }
 
   option {
