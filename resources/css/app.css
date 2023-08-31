@@ -5,7 +5,37 @@
 @tailwind utilities;
 
 @layer components {
-  .linked {
-    color: A3AED0;
+  [type='text'], 
+  input:where(:not([type])), 
+  [type='email'], 
+  [type='url'], 
+  [type='password'], 
+  [type='number'], 
+  [type='date'], 
+  [type='datetime-local'], 
+  [type='month'], 
+  [type='search'], 
+  [type='tel'], 
+  [type='time'], 
+  [type='week'], 
+  [multiple], 
+  textarea, 
+  select {
+    
+    border-radius: 4px;
+    width: 208px;
+    border-color: #DDDDDD;
+  }
+
+  option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    border-radius: 'none';
+    color: #A3AED0;
+    font-weight: normal;
+    display: block;
+    padding: 4px 1px;
   }
 }

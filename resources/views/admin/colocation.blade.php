@@ -8,7 +8,7 @@
 
     <div>
         <div class="flex gap-x-[12.8px]">
-            <h1 class="font-medium text-[32px] text-[#A3AED0]">VPS</h1>
+            <h1 class="font-medium text-[32px] text-[#A3AED0]">Server</h1>
             <img src="{{asset ('assets/arrow.svg')}}" alt="">
             <h1 class="font-medium text-[32px] text-highlight">Colocation Server</h1>
         </div>
@@ -28,17 +28,15 @@
                         </div>
                         <div class="flex pb-14 gap-x-[70px] items-center">
                             <h1 class="font-medium text-[20px] text-[#A3AED0]">Status</h1>
-
-                            <select class="select select-bordered w-full max-w-xs">
-
-                                <option class="text-[#A3AED0]">Setuju</option>
-                                <option class="text-[#A3AED0]">Belum Disetujui</option>
-                                <option class="text-[#A3AED0]">Semua</option>
+                            <select name="" id="">
+                                <option value="">Disetujui</option>
+                                <option value="">Belum Disetujui</option>
+                                <option value="">Semua</option>
                             </select>
                         </div>
 
                         <div class="flex justify-between pb-14">
-                            <a class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</a>
+                            <button type="submit" class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</button>
                             <button class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]" onclick="my_modal_4.showModal()"><img src="{{asset ('assets/tambah-icon.svg')}}" alt="">Tambah</button>
                             <dialog id="my_modal_4" class="modal">
                                 <form method="dialog" class="modal-box w-11/12 max-w-5xl">
@@ -81,10 +79,10 @@
 
                                             <input type="checkbox" id="modal-1" class="modal-toggle" />
                                             <div class="modal">
-                                                <div class="modal-box">
-                                                    <h3 class="font-bold text-lg">Detail</h3>
-                                                    <div class="modal-action">
-                                                        <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
+                                                <div class="bg-white w-7/12 px-6 py-6 rounded-lg">
+                                                    <div class="flex ">
+                                                        <h3 class="font-bold text-lg">Detail</h3>
+                                                        <label for="modal-1" class="btn btn-sm btn-circle btn-ghost">✕</label>
                                                     </div>
                                                     <div class="px-3 flex justify-start">
                                                         <h3 class="text-highlight fs-5">Nomor Formulir :</h3>

@@ -22,42 +22,42 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('/colocation', function () {
+Route::get('/colocation-server', function () {
     return view('admin/colocation');
 });
 Route::get('/yola', function () {
     return view('formulirpermohonanvpsbaru');
 });
 
-Route::get('/Server/Colocation-Server', function () {
+Route::get('/server/solocation-server', function () {
     return view('Colocation-Server');
 });
 
-Route::get('/Server/Pengajuan-VPS', function () {
+Route::get('/server/pengajuan-vps', function () {
     return view('Pengajuan-VPS');
 });
 
-Route::get('/Server/Akses-Fisik', function () {
+Route::get('/server/akses-fisik', function () {
     return view('Akses-Fisik');
 });
 
-Route::get('/Sertifikat-Elektronik/Single-User', function () {
+Route::get('/sertifikat-elektronik/single-user', function () {
     return view('Single-User');
 });
 
-Route::get('/Sertifikat-Elektronik/Multi-User', function () {
+Route::get('/sertifikat-elektronik/multi-user', function () {
     return view('Multi-User');
 });
 
-Route::get('/VPS/Permohonan-VPS', function () {
+Route::get('/vps/permohonan-vps', function () {
     return view('Permohonan-VPS');
 });
 
-Route::get('/VPS/Perubahan-VPS', function () {
+Route::get('/vps/perubahan-vps', function () {
     return view('Perubahan-VPS');
 });
 
-Route::get('/Server/Pengajuan-Server', function () {
+Route::get('/server/pengajuan-server', function () {
     return view('Pengajuan-Server');
 });
 
