@@ -23,6 +23,7 @@
                 <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                     <div class="overflow-hidden">
 
+                        <!-- Filter -->
                         <div class="flex pb-7">
                             <h1 class="font-medium text-[32px] text-highlight">Filter</h1>
                         </div>
@@ -34,6 +35,7 @@
                                 <option value="">Semua</option>
                             </select>
                         </div>
+                        <!-- Filter -->
 
                         <!-- Tambah Modal -->
                         <div class="flex justify-between pb-14">
@@ -47,7 +49,7 @@
                                         <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                     </div>
                                     <div class="">
-                                        <form action="">
+                                        <form class="text-text" action="">
                                             <label for="">INSTANSI :</label><br>
                                             <input type="text"><br>
                                             <label for="">PENANGGUNG JAWAB :</label><br>
@@ -60,11 +62,14 @@
                                 </form>
                             </dialog>
                         </div>
-
+                        <!-- End Tambah Modal -->
+                    
+                        <!-- Tabel -->
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
                                     <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
                                     <th scope="col" class="px-6 py-2">INSTANSI</th>
                                     <th scope="col" class="px-6 py-2">PENANGGUNG JAWAB</th>
                                     <th scope="col" class="px-6 py-2">NIP</th>
@@ -75,6 +80,7 @@
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">112312</td>
                                     <td class="whitespace-nowrap px-6 py-2">PT. SEJAHTERA</td>
                                     <td class="whitespace-nowrap px-6 py-2">John Doe</td>
                                     <td class="whitespace-nowrap px-6 py-2">192839201829327183</td>
@@ -144,6 +150,8 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- End Tabel -->
+
                     </div>
                 </div>
             </div>

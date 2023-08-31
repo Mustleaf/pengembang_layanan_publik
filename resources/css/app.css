@@ -26,6 +26,10 @@
     width: 208px;
     border-color: #DDDDDD;
   }
+  
+  label {
+    color: #A3AED0;
+  }
 
   [type='text'] {
     width: 50%;

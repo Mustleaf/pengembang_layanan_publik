@@ -16,8 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 //Admin
 
-
-
 Route::get('/admin', function () {
     return view('admin');
 });
@@ -60,7 +58,7 @@ Route::get('/admin/pengajuan-server', function () {
 
 
 
-// User
+// Public
 
 Route::get('/', function () {
     return view('dashboard');

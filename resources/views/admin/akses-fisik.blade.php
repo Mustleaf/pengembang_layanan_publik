@@ -23,6 +23,7 @@
                 <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                     <div class="overflow-hidden">
 
+                        <!-- Filter -->
                         <div class="flex pb-7">
                             <h1 class="font-medium text-[32px] text-highlight">Filter</h1>
                         </div>
@@ -34,6 +35,7 @@
                                 <option value="">Semua</option>
                             </select>
                         </div>
+                        <!-- End Filter -->
 
                         <!-- Tambah Modal -->
                         <div class="flex justify-between pb-14">
@@ -77,7 +79,7 @@
                                             <label for="">JABATAN PENYETUJU :</label><br>
                                             <input placeholder="" type="text"><br>
                                             <label for="">Catatan :</label><br>
-                                            <input placeholder="" type="text"><br>
+                                            <input placeholder="" type="text"><br><br>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -85,10 +87,14 @@
                                 </form>
                             </dialog>
                         </div>
+                        <!-- End Tambah Modal -->
 
+                        <!-- Tabel -->    
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
+                                    <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
                                     <th scope="col" class="px-6 py-2">TANGGAL</th>
                                     <th scope="col" class="px-6 py-2">JAM</th>
                                     <th scope="col" class="px-6 py-2">KEPERLUAN</th>
@@ -99,11 +105,13 @@
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">30/08/2023</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2">123323</td>
+                                    <td class="whitespace-nowrap px-6 py-2">30/8/2023</td>
                                     <td class="whitespace-nowrap px-6 py-2">13:00</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Server Hardware Maintenance</td>
-                                    <td class="whitespace-nowrap px-6 py-2">John Doe</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
+                                    <td class="whitespace-nowrap px-6 py-2">AKSES</td>
+                                    <td class="whitespace-nowrap px-6 py-2">LOREM</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
 
@@ -219,6 +227,8 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- End Tabel -->
+
                     </div>
                 </div>
             </div>

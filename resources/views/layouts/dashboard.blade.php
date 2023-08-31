@@ -25,11 +25,14 @@
         </div>
 
         <div class="pl-[25px] flex flex-col gap-y-5 py-7">
+            
+            <!-- Dashboard -->
             <div class="flex items-center gap-x-[13.2px]">
                 <img src="{{ asset('assets/dashboard.svg') }}" alt="">
                 <a href="" class="text-text">Dashboard</a>
             </div>
 
+            <!-- Server -->
             <div>
                 <div class="flex items-center gap-x-[13.2px]">
                     <img src="{{ asset('assets/server.svg') }}" alt="">
@@ -38,13 +41,14 @@
 
                 <div class="pl-[37px] py-2 w-full">
                     <ul class="flex flex-col gap-y-2">
-                        <li><a class="text-text" href="">Colocation Server</a></li>
-                        <li><a class="text-text" href="">Pengajuan Server</a></li>
-                        <li><a class="text-text" href="">Akses Fisik Data Center</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/colocation-server')}}">Colocation Server</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/pengajuan-server')}}">Pengajuan Server</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/akses-fisik')}}">Akses Fisik Data Center</a></li>
                     </ul>
                 </div>
             </div>
 
+            <!-- Sertifikat Elektronik -->
             <div>
                 <div class="flex items-center gap-x-[13.2px]">
                     <img src="{{ asset('assets/user.svg') }}" alt="">
@@ -53,22 +57,23 @@
 
                 <div class="pl-[37px] py-2 w-full">
                     <ul class="flex flex-col gap-y-2">
-                        <li><a class="text-text" href="">Single User</a></li>
-                        <li><a class="text-text" href="">Multi User</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/single-user')}}">Single User</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/multi-user')}}">Multi User</a></li>
                     </ul>
                 </div>
             </div>
 
+            <!-- VPS -->
             <div>
                 <div class="flex items-center gap-x-[13.2px]">
                     <img src="{{ asset('assets/vps.svg') }}" alt="">
-                    <a class="text-text" href="">Sertifikat Elektronik</a>
+                    <a class="text-text" href="">VPS</a>
                 </div>
 
                 <div class="pl-[37px] py-2 w-full">
                     <ul class="flex flex-col gap-y-2">
-                        <li><a class="text-text" href="">Permohonan VPS Baru</a></li>
-                        <li><a class="text-text" href="">Permohonan Perubahan VPS</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/permohonan-vps')}}">Permohonan VPS Baru</a></li>
+                        <li><a class="text-text" href="{{url ('/admin/perubahan-vps')}}">Permohonan Perubahan VPS</a></li>
                     </ul>
                 </div>
             </div>
