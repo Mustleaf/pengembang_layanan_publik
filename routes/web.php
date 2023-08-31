@@ -57,7 +57,7 @@ Route::get('/VPS/Perubahan-VPS', function () {
     return view('Perubahan-VPS');
 });
 
-Route::get('/Server/Pengajuan-Server', function () {
+Route::get('/VPS/Pengajuan-Server', function () {
     return view('Pengajuan-Server');
 });
 
