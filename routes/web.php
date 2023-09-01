@@ -52,12 +52,6 @@ Route::get('/admin/pengajuan-server', function () {
 
 
 
-
-
-
-
-
-
 // Public
 
 Route::get('/', function () {

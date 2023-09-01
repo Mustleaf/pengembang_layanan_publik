@@ -9,8 +9,7 @@
   [type='email'], 
   [type='url'], 
   [type='password'], 
-  [type='number'], 
-  [type='date'], 
+  [type='number'],  
   [type='datetime-local'], 
   [type='month'], 
   [type='search'], 
@@ -31,7 +30,9 @@
     color: #A3AED0;
   }
 
-  [type='text'] {
+  [type='text'],
+  [type='date'], 
+  [type='time'] {
     width: 50%;
     border-color: #DDDDDD;
     border-radius: 4px;

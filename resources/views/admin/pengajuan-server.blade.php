@@ -50,35 +50,11 @@
                                     </div>
                                     <div class="">
                                         <form action="">
-                                            <label for="">TANGGAL :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">JAM :</label><br>
+                                            <label for="">INSTANSI :</label><br>
                                             <input placeholder="" type="text"><br>
                                             <label for="">KEPERLUAN :</label><br>
                                             <input placeholder="" type="text"><br>
-                                            <label for="">PENANGGUNG JAWAB :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">DESKRIPSI :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">NOMOR SERIAL :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">MASUK :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">KELUAR :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">STATUS :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">NAMA PENYETUJU :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">NIP PENYETUJU :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">JABATAN PENYETUJU :</label><br>
-                                            <input placeholder="" type="text"><br>
-                                            <label for="">Catatan :</label><br>
+                                            <label for="">TUJUAN :</label><br>
                                             <input placeholder="" type="text"><br><br>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
