@@ -95,6 +95,7 @@
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
                                     <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
                                     <th scope="col" class="px-6 py-2">NAMA LENGKAP</th>
                                     <th scope="col" class="px-6 py-2">NIP</th>
                                     <th scope="col" class="px-6 py-2">PANGKAT</th>
@@ -109,6 +110,7 @@
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
                                     <td class="whitespace-nowrap px-6 py-2">John Doe</td>
                                     <td class="whitespace-nowrap px-6 py-2">192839201829327183</td>
                                     <td class="whitespace-nowrap px-6 py-2">None</td>

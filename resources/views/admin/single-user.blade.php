@@ -93,21 +93,25 @@
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
-                                    <th scope="col" class="px-6 py-2">TANGGAL</th>
-                                    <th scope="col" class="px-6 py-2">JAM</th>
-                                    <th scope="col" class="px-6 py-2">KEPERLUAN</th>
-                                    <th scope="col" class="px-6 py-2">PENANGGUNG JAWAB</th>
-                                    <th scope="col" class="px-6 py-2">STATUS</th>
-                                    <th scope="col" class="px-6 py-2">AKSI</th>
+                                    <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
+                                    <th scope="col" class="px-6 py-2">REKOMENDASI NOMOR</th>
+                                    <th scope="col" class="px-6 py-2">NAMA</th>
+                                    <th scope="col" class="px-6 py-2">NIP</th>
+                                    <th scope="col" class="px-6 py-2">PANGKAT/GOLONGAN</th>
+                                    <th scope="col" class="px-6 py-2">JABATAN</th>
+                                    
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">30/08/2023</td>
-                                    <td class="whitespace-nowrap px-6 py-2">13:00</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Server Hardware Maintenance</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">999</td>
                                     <td class="whitespace-nowrap px-6 py-2">John Doe</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
+                                    <td class="whitespace-nowrap px-6 py-2">123456789</td>
+                                    <td class="whitespace-nowrap px-6 py-2">3</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Head Programmer</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
 
@@ -124,13 +128,13 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
-                                                        <p class="text-text">TANGGAL :</p>
+                                                        <p class="text-text">REKOMENDASI NOMOR :</p>
                                                         <p class="text-purple">30/08/2023</p> <!-- data -->
-                                                        <p class="text-text">JAM :</p>
+                                                        <p class="text-text">NAMA :</p>
                                                         <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KEPERLUAN :</p>
+                                                        <p class="text-text">NIP :</p>
                                                         <p class="text-purple">Server Hardware Maintenance</p> <!-- data -->
-                                                        <p class="text-text">PENANGGUNG JAWAB :</p>
+                                                        <p class="text-text">PANGKAT/GOLONGAN :</p>
                                                         <p class="text-purple">John Doe</p> <!-- data -->
                                                         <p class="text-text">NIP PENANGGUNG JAWAB :</p>
                                                         <p class="text-purple">192839201829327183</p> <!-- data -->
@@ -224,7 +228,7 @@
                             </tbody>
                         </table>
                         <!-- End Tabel -->
-                        
+
                     </div>
                 </div>
             </div>

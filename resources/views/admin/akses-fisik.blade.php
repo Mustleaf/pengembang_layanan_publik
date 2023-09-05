@@ -58,6 +58,28 @@
                                             <input placeholder="" type="text"><br>
                                             <label for="">PENANGGUNG JAWAB :</label><br>
                                             <input placeholder="" type="text"><br><br>
+                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">DESKRIPSI :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NOMOR SERIAL :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">MASUK :</label><br>
+                                            <input placeholder="" type="time"><br>
+                                            <label for="">KELUAR :</label><br>
+                                            <input placeholder="" type="time"><br>
+                                            <label for="">STATUS :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NAMA PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NIP PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">JABATAN PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">Catatan :</label><br>
+                                            <input placeholder="" type="text"><br>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -67,7 +89,7 @@
                         </div>
                         <!-- End Tambah Modal -->
 
-                        <!-- Tabel -->    
+                        <!-- Tabel -->
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
@@ -152,9 +174,9 @@
                                                         <form class="text-text" action="">
 
                                                             <label for="">TANGGAL :</label><br>
-                                                            <input placeholder="30/08/2023" type="text"><br>
+                                                            <input placeholder="" type="date"><br>
                                                             <label for="">JAM :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
                                                             <label for="">KEPERLUAN :</label><br>
                                                             <input placeholder="Server Hardware Maintenance" type="text"><br>
                                                             <label for="">PENANGGUNG JAWAB :</label><br>
@@ -168,9 +190,9 @@
                                                             <label for="">NOMOR SERIAL :</label><br>
                                                             <input placeholder="012392" type="text"><br>
                                                             <label for="">MASUK :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
                                                             <label for="">KELUAR :</label><br>
-                                                            <input placeholder="17:30" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
                                                             <label for="">STATUS :</label><br>
                                                             <input placeholder="Disetujui" type="text"><br>
                                                             <label for="">NAMA PENYETUJU :</label><br>

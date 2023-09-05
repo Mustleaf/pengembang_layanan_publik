@@ -93,6 +93,8 @@
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
+                                    <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
                                     <th scope="col" class="px-6 py-2">TANGGAL</th>
                                     <th scope="col" class="px-6 py-2">JAM</th>
                                     <th scope="col" class="px-6 py-2">KEPERLUAN</th>
@@ -103,6 +105,8 @@
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">30/08/2023</td>
                                     <td class="whitespace-nowrap px-6 py-2">13:00</td>
                                     <td class="whitespace-nowrap px-6 py-2">Server Hardware Maintenance</td>
@@ -224,7 +228,7 @@
                             </tbody>
                         </table>
                         <!-- End Tabel -->
-                        
+
                     </div>
                 </div>
             </div>

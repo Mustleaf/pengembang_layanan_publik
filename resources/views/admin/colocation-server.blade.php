@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div class="bg-white rounded-md h-fit w-[1584px] my-11 py-9 px-9">
+    <div class="bg-white rounded-md  h-fit w-[1584px] my-11 py-9 px-9">
 
 
 
