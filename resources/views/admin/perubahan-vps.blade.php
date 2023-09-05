@@ -204,6 +204,12 @@
                                                             <label for="">Catatan :</label><br>
                                                             <input placeholder="Tidak ada catatan" type="text"><br>
 
+                                                            <label for="">STATUS :</label><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
+
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>
                                                     </div>

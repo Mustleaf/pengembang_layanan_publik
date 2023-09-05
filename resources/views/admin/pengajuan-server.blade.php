@@ -69,6 +69,11 @@
                                             <label for="">KEPERLUAN :</label><br>
                                             <input placeholder="" type="text"><br><br>
 
+                                            <label for="">STATUS :</label><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -94,10 +99,10 @@
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2">1</td>
-                                    <td class="whitespace-nowrap px-6 py-2">121212</td>
-                                    <td class="whitespace-nowrap px-6 py-2">PT.YGY</td>
-                                    <td class="whitespace-nowrap px-6 py-2">MEMBUAT SERVER</td>
-                                    <td class="whitespace-nowrap px-6 py-2">LOREMIPSUM</td>
+                                    <td class="whitespace-nowrap px-6 py-2">13444</td>
+                                    <td class="whitespace-nowrap px-6 py-2">FIF GROUP</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Kunjungan Bisnis</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Silaturahmi</td>
                                     <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
@@ -167,6 +172,12 @@
                                                             <input placeholder="088899444" type="text"><br><br>
                                                             <label for="">KEPERLUAN :</label><br>
                                                             <input placeholder="Kunjungan Bisnis" type="text"><br><br>
+
+                                                            <label for="">STATUS :</label><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>

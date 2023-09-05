@@ -102,7 +102,7 @@
                                     <th scope="col" class="px-6 py-2">JABATAN</th>
                                     <th scope="col" class="px-6 py-2">INSTANSI</th>
                                     <th scope="col" class="px-6 py-2">UNIT KERJA</th>
-                                    <th scope="col" class="px-6 py-2">EMAIL</th>
+                                    <th scope="col" class="px-6 py-2">ALAMAT EMAIL</th>
                                     <th scope="col" class="px-6 py-2">STATUS</th>
                                     <th scope="col" class="px-6 py-2">AKSI</th>
                                 </tr>
@@ -112,11 +112,11 @@
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
                                     <td class="whitespace-nowrap px-6 py-2">John Doe</td>
-                                    <td class="whitespace-nowrap px-6 py-2">192839201829327183</td>
-                                    <td class="whitespace-nowrap px-6 py-2">None</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Sekretaris</td>
+                                    <td class="whitespace-nowrap px-6 py-2">123456789</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Pegawai Swasta</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Direktur</td>
                                     <td class="whitespace-nowrap px-6 py-2">PT SEJAHTERA</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Beta</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Swasta</td>
                                     <td class="whitespace-nowrap px-6 py-2">johndoe@gmail.com</td>
                                     <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
@@ -135,36 +135,44 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
+                                                        <div class="flex justify-center">
+                                                            <p class="text-text">REKOMENDASI NOMOR</p>
+                                                        </div>
+                                                        <div class="flex justify-center">
+                                                            <p class="text-purple">12345</p> <!-- data -->
+                                                        </div>
+                                                        <p class="text-text">NAMA LENGKAP :</p>
+                                                        <p class="text-purple">Jane Doe</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">12333</p> <!-- data -->
+                                                        <p class="text-text">NIK :</p>
+                                                        <p class="text-purple">012392</p> <!-- data -->
+                                                        <p class="text-text">PANGKAT/GOLONGAN :</p>
+                                                        <p class="text-purple">Pegawai Swasta</p> <!-- data -->
+                                                        <p class="text-text">JABATAN :</p>
+                                                        <p class="text-purple">Direktur</p> <!-- data -->
+                                                        <p class="text-text">INSTANSI :</p>
+                                                        <p class="text-purple">Partai Tersero</p> <!-- data -->
+                                                        <p class="text-text">UNIT KERJA :</p>
+                                                        <p class="text-purple">Swasta</p> <!-- data -->
+                                                        <p class="text-text">ALAMAT EMAIL :</p>
+                                                        <p class="text-purple">janedoe70@gmail.com</p><br> <!-- data -->
+
+                                                        <p class="text-black">UNTUK MELAKUKAN PENDAFTARAN SERTIFIKAT ELEKTRONIK SEKALIGUS</p>
+                                                        <p class="text-text">A. SISTEM :</p>
+                                                        <p class="text-purple">Persuratan</p> <!-- data -->
+                                                        <p class="text-text">B. KEGUNAAN :</p>
+                                                        <p class="text-purple">Tanda Tangan Elektronik</p><br> <!-- data -->
+
+                                                        <p class="text-black">DEMIKIAN SURAT REKOMENDASI INI SAYA BUAT, AGAR DIGUNAKAN SEBAGAIMANA MESTINYA</p>
+                                                        <p class="text-text">TEMPAT :</p>
+                                                        <p class="text-purple">PT. FIF GROUP</p> <!-- data -->
                                                         <p class="text-text">TANGGAL :</p>
                                                         <p class="text-purple">30/08/2023</p> <!-- data -->
-                                                        <p class="text-text">JAM :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KEPERLUAN :</p>
-                                                        <p class="text-purple">Server Hardware Maintenance</p> <!-- data -->
-                                                        <p class="text-text">PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">John Doe</p> <!-- data -->
-                                                        <p class="text-text">NIP PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">192839201829327183</p> <!-- data -->
-                                                        <p class="text-text">DAFTAR PENGUNJUNG :</p>
-                                                        <p class="text-purple">Michael Smith</p> <!-- data -->
-                                                        <p class="text-text">DESKRIPSI :</p>
-                                                        <p class="text-purple">Tidak ada deskripsi</p> <!-- data -->
-                                                        <p class="text-text">NOMOR SERIAL :</p>
-                                                        <p class="text-purple">012392</p> <!-- data -->
-                                                        <p class="text-text">MASUK :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KELUAR :</p>
-                                                        <p class="text-purple">18:30</p> <!-- data -->
-                                                        <p class="text-text">STATUS :</p>
-                                                        <p class="text-purple">Disetujui</p> <!-- data -->
-                                                        <p class="text-text">NAMA PENYETUJU :</p>
-                                                        <p class="text-purple">Jenny Graham</p> <!-- data -->
-                                                        <p class="text-text">NIP PENYETUJU :</p>
-                                                        <p class="text-purple">102938711829928361</p> <!-- data -->
-                                                        <p class="text-text">JABATAN PENYETUJU :</p>
-                                                        <p class="text-purple">Kepala Security</p> <!-- data -->
-                                                        <p class="text-text">CATATAN :</p>
-                                                        <p class="text-purple">Tidak ada catatan</p> <!-- data -->
+                                                        <p class="text-text">KEPALA DINAS :</p>
+                                                        <p class="text-purple">Aldi</p> <!-- data -->
+                                                        <p class="text-text">PROVINSI :</p>
+                                                        <p class="text-purple">YOGYAKARTA</p> <!-- data -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,36 +188,55 @@
                                                     <div class="flex flex-col text-start font-medium">
                                                         <form class="text-text" action="">
 
-                                                            <label for="">TANGGAL :</label><br>
-                                                            <input placeholder="30/08/2023" type="text"><br>
-                                                            <label for="">JAM :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KEPERLUAN :</label><br>
-                                                            <input placeholder="Server Hardware Maintenance" type="text"><br>
-                                                            <label for="">PENANGGUNG JAWAB :</label><br>
+                                                            <div class="flex justify-center">
+                                                                <p class="text-text">REKOMENDASI NOMOR</p>
+
+                                                            </div>
+                                                            <div class="flex justify-center">
+                                                                <input class="w-48" placeholder="12345" type="text">
+                                                            </div>
+                                                            <br>
+
+                                                            <label for="">NAMA LENGKAP :</label><br>
                                                             <input placeholder="John Doe" type="text"><br>
-                                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
-                                                            <input placeholder="192839201829327183" type="text"><br>
-                                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
-                                                            <input placeholder="Michael Smith" type="text"><br>
-                                                            <label for="">DESKRIPSI :</label><br>
-                                                            <input placeholder="Tidak ada deskripsi" type="text"><br>
-                                                            <label for="">NOMOR SERIAL :</label><br>
-                                                            <input placeholder="012392" type="text"><br>
-                                                            <label for="">MASUK :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KELUAR :</label><br>
-                                                            <input placeholder="17:30" type="text"><br>
+                                                            <label for="">NIP :</label><br>
+                                                            <input placeholder="123456789" type="text"><br>
+                                                            <label for="">PANGKAT/GOLONGAN :</label><br>
+                                                            <input placeholder="Pegawai Swasta" type="text"><br>
+                                                            <label for="">JABATAN :</label><br>
+                                                            <input placeholder="Direktur" type="text"><br>
+                                                            <label for="">INSTANSI :</label><br>
+                                                            <input placeholder="Partai Tersero" type="text"><br>
+                                                            <label for="">UNIT KERJA :</label><br>
+                                                            <input placeholder="Swasta" type="text"><br>
+                                                            <label for="">ALAMAT EMAIL :</label><br>
+                                                            <input placeholder="janedoe70@gmail.com" type="text"><br>
+                                                            <br>
+                                                            <p class="text-black">UNTUK MELAKUKAN PENDAFTARAN SERTIFIKAT ELEKTRONIK SEKALIGUS</p>
+                                                            <br>
+                                                            <label for="">A. SISTEM :</label><br>
+                                                            <input placeholder="Persuratan" type="text"><br>
+                                                            <label for="">B. KEGUNAAN :</label><br>
+                                                            <input placeholder="Tanda Tangan Elektronik" type="text"><br>
+
+                                                            <br>
+                                                            <p class="text-black">DEMIKIAN SURAT REKOMENDASI INI SAYA BUAT, AGAR DIGUNAKAN SEBAGAIMANA MESTINYA</p>
+                                                            <br>
+                                                            <label for="">TEMPAT :</label><br>
+                                                            <input placeholder="PT. FIF GROUP" type="text"><br>
+                                                            <label for="">TANGGAL :</label><br>
+                                                            <input placeholder="" type="date"><br>
+                                                            <label for="">KEPALA DINAS/BADAN/BIRO :</label><br>
+                                                            <input placeholder="Aldi" type="text"><br>
+                                                            <label for="">PROVINSI :</label><br>
+                                                            <input placeholder="Yogyakarta" type="text"><br>
+
                                                             <label for="">STATUS :</label><br>
-                                                            <input placeholder="Disetujui" type="text"><br>
-                                                            <label for="">NAMA PENYETUJU :</label><br>
-                                                            <input placeholder="Jenny Graham" type="text"><br>
-                                                            <label for="">NIP PENYETUJU :</label><br>
-                                                            <input placeholder="102938711829928361" type="text"><br>
-                                                            <label for="">JABATAN PENYETUJU :</label><br>
-                                                            <input placeholder="Kepala Security" type="text"><br>
-                                                            <label for="">Catatan :</label><br>
-                                                            <input placeholder="Tidak ada catatan" type="text"><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
+
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>
@@ -235,7 +262,7 @@
                             </tbody>
                         </table>
                         <!-- End Tabel -->
-                        
+
                     </div>
                 </div>
             </div>
