@@ -176,7 +176,7 @@
                                                             <label for="">STATUS :</label><br>
                                                             <select name="" id="">
                                                                 <option value="">Disetujui</option>
-                                                                <option value="">Belum Disetujui</option>
+                                                                <option selected value="">Belum Disetujui</option>
                                                             </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
