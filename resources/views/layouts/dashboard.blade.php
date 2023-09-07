@@ -16,8 +16,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans bg-admin flex w-full">
-    <div class="h-screen bg-white w-1/6">
+<body class="font-sans bg-admin h-screen flex w-full">
+    <span class="cursor-pointer" onclick="Open()">sadf</span>
+    <div class="sidebar h-screen bg-white w-1/6 sm:fixed sm:left-[300px]">
         <div class="py-11">
             <h1 class="text-[48px] font-bold text-center text-highlight">
                 ADMIN
@@ -80,6 +81,13 @@
 
         </div>
     </div>
+
+    <script>
+        function Open(){
+            document.querySelector('.sidebar').classList.toggle('')
+            console.log('Open')
+        }
+    </script>
 
 
     <main>

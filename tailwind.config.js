@@ -13,10 +13,10 @@ export default {
         extend: {
 
             screens: {
-                'sm' : '640px',
-                'md' : '768px',
-                'lg' : '1024px',
-                'xl' : '1280px',
+                'sm': {'min': '300px', 'max': '767px'},
+                'md': {'min': '768px', 'max': '991px'},
+                'lg': {'min': '992px', 'max': '1199px'},
+                'xl': {'min': '1200px'},
             },
 
             fontFamily: {
