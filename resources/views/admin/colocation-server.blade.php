@@ -7,15 +7,14 @@
 <div class="px-[1rem] py-11">
 
     <div>
-        <div class="flex gap-x-[12.8px]">
-            <h1 class="font-medium text-[32px] text-[#A3AED0]">Server</h1>
-            <img src="{{asset ('assets/arrow.svg')}}" alt="">
-            <h1 class="font-medium text-[32px] text-highlight">Colocation Server</h1>
+        <div class="flex items-center md:px-1 gap-x-[12.8px]">
+            <h1 class="font-medium md:text-3xl text-[32px] text-[#A3AED0]">Server</h1>
+            <img class="" src="{{asset ('assets/arrow.svg')}}" alt="">
+            <h1 class="font-medium md:text-3xl text-[32px] text-highlight">Colocation Server</h1>
         </div>
     </div>
 
-    <div class="bg-white rounded-md  h-fit w-[1584px] my-11 py-9 px-9">
-
+    <div class="bg-white rounded-md h-fit md:w-[500px] w-[1584px] my-11 py-9 px-9">
 
 
         <div class="flex flex-col">
@@ -25,11 +24,11 @@
 
                         <!-- Filter -->
                         <div class="flex pb-7">
-                            <h1 class="font-medium text-[32px] text-highlight">Filter</h1>
+                            <h1 class="font-medium md:text-3xl text-[32px] text-highlight">Filter</h1>
                         </div>
                         <div class="flex pb-14 gap-x-[70px] items-center">
-                            <h1 class="font-medium text-[20px] text-[#A3AED0]">Status</h1>
-                            <select name="" id="">
+                            <h1 class="font-medium md:text-base text-[20px] text-[#A3AED0]">Status</h1>
+                            <select class="md:w-40" name="" id="">
                                 <option value="">Disetujui</option>
                                 <option value="">Belum Disetujui</option>
                                 <option value="">Semua</option>
@@ -39,7 +38,7 @@
 
                         <!-- Tambah Modal -->
                         <div class="flex justify-between pb-14">
-                            <button type="submit" class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</button>
+                            <button type="submit" class="flex items-center w-[116px] md:w-28 h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</button>
                             <button class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]" onclick="my_modal_4.showModal()"><img src="{{asset ('assets/tambah-icon.svg')}}" alt="">Tambah</button>
                             <dialog id="my_modal_4" class="modal">
                                 <form method="dialog" class="modal-box w-11/12 px-8 py-12 max-w-5xl">
