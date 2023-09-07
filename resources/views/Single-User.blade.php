@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="container mt-5">
-  <h2>VPS<img src="{{asset ('assets/arrow.svg')}}">Sertifikat Elektronik Multi User
+  <h2>VPS<img src="{{asset ('assets/arrow.svg')}}">Sertifikat Elektronik Single User
 </div>
 
 <body style="background-image: url(assets/img/hero-bg.png)">
