@@ -157,6 +157,8 @@
                                                         <p class="text-purple">Swasta</p> <!-- data -->
                                                         <p class="text-text">ALAMAT EMAIL :</p>
                                                         <p class="text-purple">janedoe70@gmail.com</p><br> <!-- data -->
+                                                        <p class="text-text">TEMPAT TINGGAL :</p>
+                                                        <p class="text-purple">Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta</p><br> <!-- data -->
 
                                                         <p class="text-black">UNTUK MELAKUKAN PENDAFTARAN SERTIFIKAT ELEKTRONIK SEKALIGUS</p>
                                                         <p class="text-text">A. SISTEM :</p>
@@ -172,7 +174,8 @@
                                                         <p class="text-text">KEPALA DINAS :</p>
                                                         <p class="text-purple">Aldi</p> <!-- data -->
                                                         <p class="text-text">PROVINSI :</p>
-                                                        <p class="text-purple">YOGYAKARTA</p> <!-- data -->
+                                                        <p class="text-purple">YOGYAKARTA</p><br><!-- data -->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -211,6 +214,8 @@
                                                             <input placeholder="Swasta" type="text"><br>
                                                             <label for="">ALAMAT EMAIL :</label><br>
                                                             <input placeholder="janedoe70@gmail.com" type="text"><br>
+                                                            <label for="">TEMPAT TINGGAL :</label><br>
+                                                            <input placeholder="Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta" type="text"><br>
                                                             <br>
                                                             <p class="text-black">UNTUK MELAKUKAN PENDAFTARAN SERTIFIKAT ELEKTRONIK SEKALIGUS</p>
                                                             <br>
@@ -229,7 +234,7 @@
                                                             <label for="">KEPALA DINAS/BADAN/BIRO :</label><br>
                                                             <input placeholder="Aldi" type="text"><br>
                                                             <label for="">PROVINSI :</label><br>
-                                                            <input placeholder="Yogyakarta" type="text"><br>
+                                                            <input placeholder="Daerah Istimewa Yogyakarta" type="text"><br>
 
                                                             <label for="">STATUS :</label><br>
                                                             <select name="" id="">
