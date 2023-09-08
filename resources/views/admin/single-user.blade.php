@@ -145,7 +145,13 @@
                                                         <p class="text-text">PANGKAT/GOLONGAN :</p>
                                                         <p class="text-purple">Pegawai Swasta</p> <!-- data -->
                                                         <p class="text-text">JABATAN :</p>
-                                                        <p class="text-purple">Head Programmer</p><br> <!-- data -->
+                                                        <p class="text-purple">Head Programmer</p> <!-- data -->
+                                                        <p class="text-text">INSTANSI :</p>
+                                                        <p class="text-purple">FIF GROUP</p> <!-- data -->
+                                                        <p class="text-text">TEMPAT TINGGAL :</p>
+                                                        <p class="text-purple">Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta</p> <!-- data -->
+                                                        <p class="text-text">PROVINSI :</p>
+                                                        <p class="text-purple">Daerah Istimewa Yogyakarta</p><br> <!-- data -->
 
                                                         <p class="text-black">DENGAN INI MEMBERIKAN REKOMENDASI PADA</p>
                                                         <p class="text-text">NAMA LENGKAP :</p>
@@ -179,7 +185,7 @@
                                                         <p class="text-text">KEPALA DINAS :</p>
                                                         <p class="text-purple">Aldi</p> <!-- data -->
                                                         <p class="text-text">PROVINSI :</p>
-                                                        <p class="text-purple">YOGYAKARTA</p> <!-- data -->
+                                                        <p class="text-purple">Daerah Istimewa Yogyakarta</p> <!-- data -->
 
                                                     </div>
                                                 </div>
@@ -213,6 +219,12 @@
                                                             <input placeholder="Pegawai Swasta" type="text"><br>
                                                             <label for="">JABATAN :</label><br>
                                                             <input placeholder="Head Programmer" type="text"><br>
+                                                            <label for="">INSTANSI :</label><br>
+                                                            <input placeholder="FIF GROUP" type="text"><br>
+                                                            <label for="">TEMPAT TINGGAL :</label><br>
+                                                            <input placeholder="Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta" type="text"><br>
+                                                            <label for="">PROVINSI :</label><br>
+                                                            <input placeholder="Daerah Istimewa Yogyakarta" type="text"><br>
                                                             <br>
                                                             <p class="text-black">DENGAN INI MEMBERIKAN REKOMENDASI PADA</p>
                                                             <br>
@@ -232,6 +244,10 @@
                                                             <input placeholder="Swasta" type="text"><br>
                                                             <label for="">ALAMAT EMAIL :</label><br>
                                                             <input placeholder="janedoe70@gmail.com" type="text"><br>
+                                                            <label for="">TEMPAT TINGGAL :</label><br>
+                                                            <input placeholder="janedoe70@gmail.com" type="text"><br>
+                                                            <label for="">PROVINSI :</label><br>
+                                                            <input placeholder="Daerah Istimewa Yogyakarta" type="text"><br>
                                                             <br>
                                                             <p class="text-black">UNTUK MELAKUKAN PENDAFTARAN SERTIFIKAT ELEKTRONIK SEKALIGUS</p>
                                                             <br>
@@ -250,7 +266,7 @@
                                                             <label for="">KEPALA DINAS/BADAN/BIRO :</label><br>
                                                             <input placeholder="Aldi" type="text"><br>
                                                             <label for="">PROVINSI :</label><br>
-                                                            <input placeholder="Yogyakarta" type="text"><br>
+                                                            <input placeholder="Daerah Istimewa Yogyakarta  " type="text"><br>
                                                             
 
                                                             <label for="">STATUS :</label><br>

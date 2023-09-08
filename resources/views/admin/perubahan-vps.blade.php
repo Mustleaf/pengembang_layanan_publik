@@ -93,7 +93,7 @@
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
-                                <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO</th>
                                     <th scope="col" class="px-6 py-2">NO. TIKET</th>
                                     <th scope="col" class="px-6 py-2">PEMOHON</th>
                                     <th scope="col" class="px-6 py-2">NIP</th>
@@ -105,7 +105,7 @@
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
-                                <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">George Griffith</td>
                                     <td class="whitespace-nowrap px-6 py-2">129382938127382192</td>
@@ -128,7 +128,7 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
-                                                    <p class="text-text">PEMOHON :</p>
+                                                        <p class="text-text">NAMA :</p>
                                                         <p class="text-purple">George Griffith</p> <!-- data -->
                                                         <p class="text-text">NIP :</p>
                                                         <p class="text-purple">129382938127382192</p> <!-- data -->
@@ -138,7 +138,7 @@
                                                         <p class="text-purple">Memperbesar Server</p> <!-- data -->
                                                         <br>
                                                         <p class="text-black">SPESIFIKASI VPS YANG DIINGINKAN</p>
-                                                        
+
                                                         <p class="text-text">PROSESOR :</p>
                                                         <p class="text-purple">Quad Core</p> <!-- data -->
                                                         <p class="text-text">SISTEM OPERASI :</p>
@@ -152,7 +152,23 @@
                                                         <p class="text-text">AKSES NON FISIK :</p>
                                                         <p class="text-purple">SSH</p> <!-- data -->
                                                         <p class="text-text">STATUS :</p>
-                                                        <p class="text-purple">Belum Disetujui</p> <!-- data -->
+                                                        <p class="text-purple">Disetujui</p><br> <!-- data -->
+
+                                                        <p class="text-black">PENYETUJU</p>
+                                                        <p class="text-text">NAMA LENGKAP :</p>
+                                                        <p class="text-purple">PT. FIF GROUP</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">019290101</p> <!-- data -->
+                                                        <p class="text-text">JABATAN :</p>
+                                                        <p class="text-purple">CEO</p><br> <!-- data -->
+
+                                                        <p class="text-black">PEMOHON</p>
+                                                        <p class="text-text">NAMA LENGKAP :</p>
+                                                        <p class="text-purple">John Doe</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">019290101</p> <!-- data -->
+                                                        <p class="text-text">JABATAN :</p>
+                                                        <p class="text-purple">CEO</p> <!-- data -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,7 +202,7 @@
                                                             <br>
                                                             <label for="">HARDISK :</label><br>
                                                             <div class="flex gap-x-6">
-                                                                <input type="checkbox"  class="checkbox" />
+                                                                <input type="checkbox" class="checkbox" />
                                                                 <label>20 GB</label><br>
                                                                 <input type="checkbox" checked="checked" class="checkbox" />
                                                                 <label>40 GB</label>
@@ -205,16 +221,16 @@
 
                                                             <label for="">AKUN AKSES NON FISIK</label><br>
                                                             <div class="gap-y-6">
-                                                            <input type="checkbox" checked="checked" class="checkbox" />
-                                                            <label>SSH</label><br><br>
-                                                            <input type="checkbox" class="checkbox" />
-                                                            <label>REMOTE DESKTOP</label>
+                                                                <input type="checkbox" checked="checked" class="checkbox" />
+                                                                <label>SSH</label><br><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>REMOTE DESKTOP</label>
                                                             </div>
                                                             <br>
                                                             <label for="">STATUS :</label><br>
                                                             <select name="" id="">
-                                                                <option value="">Disetujui</option>
-                                                                <option selected value="">Belum Disetujui</option>
+                                                                <option selected value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
                                                             </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">

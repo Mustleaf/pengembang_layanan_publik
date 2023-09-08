@@ -155,6 +155,8 @@
                                                         <p class="text-purple">TeamViewer</p> <!-- data -->
                                                         <p class="text-text">STATUS :</p>
                                                         <p class="text-purple">Disetujui</p> <!-- data -->
+
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
