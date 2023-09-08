@@ -17,7 +17,7 @@
 </head>
 
 <body class="font-sans bg-admin h-screen flex w-full">
-    <div class="sidebar h-screen bg-white w-1/6 sm:fixed sm:hidden">
+    <div class="sidebar h-screen bg-white w-1/6">
         <div class="py-11">
             <h1 class="text-[48px] font-bold text-center text-highlight">
                 ADMIN
