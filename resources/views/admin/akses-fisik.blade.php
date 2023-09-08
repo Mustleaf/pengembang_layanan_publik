@@ -58,6 +58,28 @@
                                             <input placeholder="" type="text"><br>
                                             <label for="">PENANGGUNG JAWAB :</label><br>
                                             <input placeholder="" type="text"><br><br>
+                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">DESKRIPSI :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NOMOR SERIAL :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">MASUK :</label><br>
+                                            <input placeholder="" type="time"><br>
+                                            <label for="">KELUAR :</label><br>
+                                            <input placeholder="" type="time"><br>
+                                            <label for="">STATUS :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NAMA PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">NIP PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">JABATAN PENYETUJU :</label><br>
+                                            <input placeholder="" type="text"><br>
+                                            <label for="">Catatan :</label><br>
+                                            <input placeholder="" type="text"><br>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -67,7 +89,7 @@
                         </div>
                         <!-- End Tambah Modal -->
 
-                        <!-- Tabel -->    
+                        <!-- Tabel -->
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
@@ -85,11 +107,11 @@
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
                                     <td class="whitespace-nowrap px-6 py-2">123323</td>
-                                    <td class="whitespace-nowrap px-6 py-2">30/8/2023</td>
-                                    <td class="whitespace-nowrap px-6 py-2">13:00</td>
-                                    <td class="whitespace-nowrap px-6 py-2">AKSES</td>
-                                    <td class="whitespace-nowrap px-6 py-2">LOREM</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
+                                    <td class="whitespace-nowrap px-6 py-2">30/08/2023</td>
+                                    <td class="whitespace-nowrap px-6 py-2">17:00</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Server Hardware Maintenance</td>
+                                    <td class="whitespace-nowrap px-6 py-2">John Doe</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
 
@@ -116,16 +138,43 @@
                                                         <p class="text-purple">John Doe</p> <!-- data -->
                                                         <p class="text-text">NIP PENANGGUNG JAWAB :</p>
                                                         <p class="text-purple">192839201829327183</p> <!-- data -->
-                                                        <p class="text-text">DAFTAR PENGUNJUNG :</p>
-                                                        <p class="text-purple">Michael Smith</p> <!-- data -->
-                                                        <p class="text-text">DESKRIPSI :</p>
-                                                        <p class="text-purple">Tidak ada deskripsi</p> <!-- data -->
-                                                        <p class="text-text">NOMOR SERIAL :</p>
-                                                        <p class="text-purple">012392</p> <!-- data -->
-                                                        <p class="text-text">MASUK :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KELUAR :</p>
-                                                        <p class="text-purple">18:30</p> <!-- data -->
+                                                        <br>
+                                                        <p class="text-black">DAFTAR PENGUNJUNG</p>
+                                                        <div class="grid grid-rows-3  grid-flow-col gap-x-12">
+                                                            <p class="text-purple"><span class="text-text">Nama : </span>Michael Smith</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">No. Telepon : </span>0812121289821</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Dari : </span>FIF GROUP</p> <!-- data -->
+
+                                                            <p class="text-purple"><span class="text-text">Nama : </span>Teressa Smith</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">No. Telepon : </span>0876215237212</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Dari : </span>FIF GROUP</p> <!-- data -->
+
+                                                            <p class="text-purple"><span class="text-text">Nama : </span>Evelyn Smith</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">No. Telepon : </span>0854389294712</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Dari : </span>FIF GROUP</p> <!-- data -->
+                                                        </div>
+
+                                                        <br>
+                                                        <p class="text-black">DAFTAR HARDWARE</p>
+                                                        <div class="grid grid-rows-4  grid-flow-col gap-x-12">
+                                                            <p class="text-purple"><span class="text-text">Deskripsi : </span>Hardware 1</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Nomor Serial : </span>HX-999</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Masuk : </span>16:30</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Keluar : </span>17:30</p> <!-- data -->
+
+                                                            <p class="text-purple"><span class="text-text">Deskripsi : </span>Hardware 2</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Nomor Serial : </span>HX-888</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Masuk : </span>16:30</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Keluar : </span>17:30</p> <!-- data -->
+
+                                                            <p class="text-purple"><span class="text-text">Deskripsi : </span>Hardware 3</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Nomor Serial : </span>HX-777</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Masuk : </span>16:30</p> <!-- data -->
+                                                            <p class="text-purple"><span class="text-text">Keluar : </span>17:30</p> <!-- data -->
+
+                                                        </div>
+                                                        <br>
+                                                        
                                                         <p class="text-text">STATUS :</p>
                                                         <p class="text-purple">Disetujui</p> <!-- data -->
                                                         <p class="text-text">NAMA PENYETUJU :</p>
@@ -136,6 +185,7 @@
                                                         <p class="text-purple">Kepala Security</p> <!-- data -->
                                                         <p class="text-text">CATATAN :</p>
                                                         <p class="text-purple">Tidak ada catatan</p> <!-- data -->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -152,11 +202,36 @@
                                                         <form class="text-text" action="">
 
                                                             <label for="">TANGGAL :</label><br>
-                                                            <input placeholder="30/08/2023" type="text"><br>
+                                                            <input placeholder="" type="date"><br>
                                                             <label for="">JAM :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KEPERLUAN :</label><br>
-                                                            <input placeholder="Server Hardware Maintenance" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
+
+                                                            <p class="text-black">KEPERLUAN</p><br>
+                                                            <div class="grid grid-rows-1 grid-flow-col gap-x-2">
+                                                                <input type="checkbox" checked="checked" class="checkbox" />
+                                                                <label>Server Hardware Maintenance</label><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>Server Software Maintenance</label><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>Hanya Berkunjung</label><br>
+                                                            </div>
+                                                            <br>
+                                                            <div class="grid grid-rows-1 lg:grid-flow-col gap-x-2">
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>Server IP</label><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>Server Hostname</label><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>Penyelesaian Masalah</label><br>
+                                                            </div>
+
+
+
+
+
+
+
+                                                            <br>
                                                             <label for="">PENANGGUNG JAWAB :</label><br>
                                                             <input placeholder="John Doe" type="text"><br>
                                                             <label for="">NIP PENANGGUNG JAWAB :</label><br>
@@ -168,9 +243,9 @@
                                                             <label for="">NOMOR SERIAL :</label><br>
                                                             <input placeholder="012392" type="text"><br>
                                                             <label for="">MASUK :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
                                                             <label for="">KELUAR :</label><br>
-                                                            <input placeholder="17:30" type="text"><br>
+                                                            <input placeholder="" type="time"><br>
                                                             <label for="">STATUS :</label><br>
                                                             <input placeholder="Disetujui" type="text"><br>
                                                             <label for="">NAMA PENYETUJU :</label><br>
@@ -181,6 +256,12 @@
                                                             <input placeholder="Kepala Security" type="text"><br>
                                                             <label for="">Catatan :</label><br>
                                                             <input placeholder="Tidak ada catatan" type="text"><br>
+
+                                                            <label for="">STATUS :</label><br>
+                                                            <select name="" id="">
+                                                                <option selected value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>

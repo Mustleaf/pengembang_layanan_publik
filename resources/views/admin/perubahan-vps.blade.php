@@ -10,7 +10,7 @@
         <div class="flex gap-x-[12.8px]">
             <h1 class="font-medium text-[32px] text-[#A3AED0]">VPS</h1>
             <img src="{{asset ('assets/arrow.svg')}}" alt="">
-            <h1 class="font-medium text-[32px] text-highlight">Perubahan VPS</h1>
+            <h1 class="font-medium text-[32px] text-highlight">Permohonan Perubahan VPS</h1>
         </div>
     </div>
 
@@ -93,21 +93,25 @@
                         <table class="min-w-full text-center text-sm font-light">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
-                                    <th scope="col" class="px-6 py-2">TANGGAL</th>
-                                    <th scope="col" class="px-6 py-2">JAM</th>
-                                    <th scope="col" class="px-6 py-2">KEPERLUAN</th>
-                                    <th scope="col" class="px-6 py-2">PENANGGUNG JAWAB</th>
+                                    <th scope="col" class="px-6 py-2">NO</th>
+                                    <th scope="col" class="px-6 py-2">NO. TIKET</th>
+                                    <th scope="col" class="px-6 py-2">PEMOHON</th>
+                                    <th scope="col" class="px-6 py-2">NIP</th>
+                                    <th scope="col" class="px-6 py-2">INSTANSI</th>
+                                    <th scope="col" class="px-6 py-2">TUJUAN</th>
                                     <th scope="col" class="px-6 py-2">STATUS</th>
                                     <th scope="col" class="px-6 py-2">AKSI</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">30/08/2023</td>
-                                    <td class="whitespace-nowrap px-6 py-2">13:00</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Server Hardware Maintenance</td>
-                                    <td class="whitespace-nowrap px-6 py-2">John Doe</td>
-                                    <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
+                                    <td class="whitespace-nowrap px-6 py-2 font-medium">George Griffith</td>
+                                    <td class="whitespace-nowrap px-6 py-2">129382938127382192</td>
+                                    <td class="whitespace-nowrap px-6 py-2">FIF GROUP</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Memperbesar Server</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
 
@@ -124,36 +128,47 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
-                                                        <p class="text-text">TANGGAL :</p>
-                                                        <p class="text-purple">30/08/2023</p> <!-- data -->
-                                                        <p class="text-text">JAM :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KEPERLUAN :</p>
-                                                        <p class="text-purple">Server Hardware Maintenance</p> <!-- data -->
-                                                        <p class="text-text">PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">John Doe</p> <!-- data -->
-                                                        <p class="text-text">NIP PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">192839201829327183</p> <!-- data -->
-                                                        <p class="text-text">DAFTAR PENGUNJUNG :</p>
-                                                        <p class="text-purple">Michael Smith</p> <!-- data -->
-                                                        <p class="text-text">DESKRIPSI :</p>
-                                                        <p class="text-purple">Tidak ada deskripsi</p> <!-- data -->
-                                                        <p class="text-text">NOMOR SERIAL :</p>
-                                                        <p class="text-purple">012392</p> <!-- data -->
-                                                        <p class="text-text">MASUK :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KELUAR :</p>
-                                                        <p class="text-purple">18:30</p> <!-- data -->
+                                                        <p class="text-text">NAMA :</p>
+                                                        <p class="text-purple">George Griffith</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">129382938127382192</p> <!-- data -->
+                                                        <p class="text-text">INSTANSI :</p>
+                                                        <p class="text-purple">FIF GROUP</p> <!-- data -->
+                                                        <p class="text-text">TUJUAN :</p>
+                                                        <p class="text-purple">Memperbesar Server</p> <!-- data -->
+                                                        <br>
+                                                        <p class="text-black">SPESIFIKASI VPS YANG DIINGINKAN</p>
+
+                                                        <p class="text-text">PROSESOR :</p>
+                                                        <p class="text-purple">Quad Core</p> <!-- data -->
+                                                        <p class="text-text">SISTEM OPERASI :</p>
+                                                        <p class="text-purple">Linux</p> <!-- data -->
+                                                        <p class="text-text">HARDISK :</p>
+                                                        <p class="text-purple">40 GB</p> <!-- data -->
+                                                        <p class="text-text">RAM :</p>
+                                                        <p class="text-purple">2 GB</p> <!-- data -->
+                                                        <p class="text-text">IP ADDRESS :</p>
+                                                        <p class="text-purple">198.165.0.1</p> <!-- data -->
+                                                        <p class="text-text">AKSES NON FISIK :</p>
+                                                        <p class="text-purple">SSH</p> <!-- data -->
                                                         <p class="text-text">STATUS :</p>
-                                                        <p class="text-purple">Disetujui</p> <!-- data -->
-                                                        <p class="text-text">NAMA PENYETUJU :</p>
-                                                        <p class="text-purple">Jenny Graham</p> <!-- data -->
-                                                        <p class="text-text">NIP PENYETUJU :</p>
-                                                        <p class="text-purple">102938711829928361</p> <!-- data -->
-                                                        <p class="text-text">JABATAN PENYETUJU :</p>
-                                                        <p class="text-purple">Kepala Security</p> <!-- data -->
-                                                        <p class="text-text">CATATAN :</p>
-                                                        <p class="text-purple">Tidak ada catatan</p> <!-- data -->
+                                                        <p class="text-purple">Disetujui</p><br> <!-- data -->
+
+                                                        <p class="text-black">PENYETUJU</p>
+                                                        <p class="text-text">NAMA LENGKAP :</p>
+                                                        <p class="text-purple">PT. FIF GROUP</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">019290101</p> <!-- data -->
+                                                        <p class="text-text">JABATAN :</p>
+                                                        <p class="text-purple">CEO</p><br> <!-- data -->
+
+                                                        <p class="text-black">PEMOHON</p>
+                                                        <p class="text-text">NAMA LENGKAP :</p>
+                                                        <p class="text-purple">John Doe</p> <!-- data -->
+                                                        <p class="text-text">NIP :</p>
+                                                        <p class="text-purple">019290101</p> <!-- data -->
+                                                        <p class="text-text">JABATAN :</p>
+                                                        <p class="text-purple">CEO</p> <!-- data -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -169,36 +184,54 @@
                                                     <div class="flex flex-col text-start font-medium">
                                                         <form class="text-text" action="">
 
-                                                            <label for="">TANGGAL :</label><br>
-                                                            <input placeholder="30/08/2023" type="text"><br>
-                                                            <label for="">JAM :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KEPERLUAN :</label><br>
-                                                            <input placeholder="Server Hardware Maintenance" type="text"><br>
-                                                            <label for="">PENANGGUNG JAWAB :</label><br>
-                                                            <input placeholder="John Doe" type="text"><br>
-                                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
-                                                            <input placeholder="192839201829327183" type="text"><br>
-                                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
-                                                            <input placeholder="Michael Smith" type="text"><br>
-                                                            <label for="">DESKRIPSI :</label><br>
-                                                            <input placeholder="Tidak ada deskripsi" type="text"><br>
-                                                            <label for="">NOMOR SERIAL :</label><br>
-                                                            <input placeholder="012392" type="text"><br>
-                                                            <label for="">MASUK :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KELUAR :</label><br>
-                                                            <input placeholder="17:30" type="text"><br>
+                                                            <label for="">NAMA PEMOHON :</label><br>
+                                                            <input placeholder="George Griffith" type="text"><br>
+                                                            <label for="">NIP :</label><br>
+                                                            <input placeholder="129382938127382192" type="text"><br>
+                                                            <label for="">INSTANSI :</label><br>
+                                                            <input placeholder="FIF GROUP" type="text"><br>
+                                                            <label for="">TUJUAN :</label><br>
+                                                            <input placeholder="Memperbesar Server" type="text"><br>
+                                                            <br>
+
+                                                            <p class="text-black">SPESIFIKASI VPS YANG DIINGINKAN</p>
+                                                            <label for="">PROSESOR :</label><br>
+                                                            <input placeholder="Dual Core" type="text"><br>
+                                                            <label for="">SISTEM OPERASI :</label><br>
+                                                            <input placeholder="Linux" type="text"><br>
+                                                            <br>
+                                                            <label for="">HARDISK :</label><br>
+                                                            <div class="flex gap-x-6">
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>20 GB</label><br>
+                                                                <input type="checkbox" checked="checked" class="checkbox" />
+                                                                <label>40 GB</label>
+                                                            </div>
+                                                            <br>
+                                                            <label for="">RAM :</label><br>
+                                                            <div class="flex gap-x-6">
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>1 GB</label><br>
+                                                                <input type="checkbox" checked="checked" class="checkbox" />
+                                                                <label>2 GB</label>
+                                                            </div>
+                                                            <br>
+                                                            <label for="">IP ADDRESS :</label><br>
+                                                            <input placeholder="198.165.0.1" type="text"><br>
+
+                                                            <label for="">AKUN AKSES NON FISIK</label><br>
+                                                            <div class="gap-y-6">
+                                                                <input type="checkbox" checked="checked" class="checkbox" />
+                                                                <label>SSH</label><br><br>
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <label>REMOTE DESKTOP</label>
+                                                            </div>
+                                                            <br>
                                                             <label for="">STATUS :</label><br>
-                                                            <input placeholder="Disetujui" type="text"><br>
-                                                            <label for="">NAMA PENYETUJU :</label><br>
-                                                            <input placeholder="Jenny Graham" type="text"><br>
-                                                            <label for="">NIP PENYETUJU :</label><br>
-                                                            <input placeholder="102938711829928361" type="text"><br>
-                                                            <label for="">JABATAN PENYETUJU :</label><br>
-                                                            <input placeholder="Kepala Security" type="text"><br>
-                                                            <label for="">Catatan :</label><br>
-                                                            <input placeholder="Tidak ada catatan" type="text"><br>
+                                                            <select name="" id="">
+                                                                <option selected value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>
@@ -224,7 +257,7 @@
                             </tbody>
                         </table>
                         <!-- End Tabel -->
-                        
+
                     </div>
                 </div>
             </div>

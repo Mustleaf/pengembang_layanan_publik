@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div class="bg-white rounded-md h-fit w-[1584px] my-11 py-9 px-9">
+    <div class="bg-white rounded-md h-fit w-[1584px] my-11 py-9 px-9 md:">
 
 
 
@@ -50,12 +50,30 @@
                                     </div>
                                     <div class="">
                                         <form action="">
-                                            <label for="">INSTANSI :</label><br>
+                                            <label for="">NOMOR :</label><br>
                                             <input placeholder="" type="text"><br>
-                                            <label for="">KEPERLUAN :</label><br>
+                                            <label for="">SIFAT :</label><br>
                                             <input placeholder="" type="text"><br>
+                                            <label for="">LAMPIRAN :</label><br>
+                                            <input placeholder="" type="text"><br><br>
+                                            <label for="">PERIHAL :</label><br>
+                                            <input placeholder="" type="text"><br><br>
+                                            <label for="">NAMA INSTANSI :</label><br>
+                                            <input placeholder="" type="text"><br><br>
                                             <label for="">TUJUAN :</label><br>
                                             <input placeholder="" type="text"><br><br>
+                                            <label for="">NAMA :</label><br>
+                                            <input placeholder="" type="text"><br><br>
+                                            <label for="">NOMOR TELEPON :</label><br>
+                                            <input placeholder="" type="text"><br><br>
+                                            <label for="">KEPERLUAN :</label><br>
+                                            <input placeholder="" type="text"><br><br>
+
+                                            <label for="">STATUS :</label><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option value="">Belum Disetujui</option>
+                                                            </select>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -81,10 +99,10 @@
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
                                     <td class="whitespace-nowrap px-6 py-2">1</td>
-                                    <td class="whitespace-nowrap px-6 py-2">121212</td>
-                                    <td class="whitespace-nowrap px-6 py-2">PT.YGY</td>
-                                    <td class="whitespace-nowrap px-6 py-2">MEMBUAT SERVER</td>
-                                    <td class="whitespace-nowrap px-6 py-2">LOREMIPSUM</td>
+                                    <td class="whitespace-nowrap px-6 py-2">13444</td>
+                                    <td class="whitespace-nowrap px-6 py-2">FIF GROUP</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Kunjungan Bisnis</td>
+                                    <td class="whitespace-nowrap px-6 py-2">Silaturahmi</td>
                                     <td class="whitespace-nowrap px-6 py-2">Belum Disetujui</td>
                                     <td class="whitespace-nowrap px-6 py-2">
                                         <div class="flex justify-center items-center gap-x-3">
@@ -102,36 +120,25 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
-                                                        <p class="text-text">TANGGAL :</p>
-                                                        <p class="text-purple">30/08/2023</p> <!-- data -->
-                                                        <p class="text-text">JAM :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
+                                                        <p class="text-text">NOMOR :</p>
+                                                        <p class="text-purple">12333</p> <!-- data -->
+                                                        <p class="text-text">SIFAT :</p>
+                                                        <p class="text-purple">STATIC</p> <!-- data -->
+                                                        <p class="text-text">LAMPIRAN :</p>
+                                                        <p class="text-purple">3</p> <!-- data -->
+                                                        <p class="text-text">PERIHAL :</p>
+                                                        <p class="text-purple">Pengembangan Server</p> <!-- data -->
+                                                        <p class="text-text">NAMA INSTANSI :</p>
+                                                        <p class="text-purple">FIF GROUP</p> <!-- data -->
+                                                        <p class="text-text">TUJUAN :</p>
+                                                        <p class="text-purple">Silaturahmi</p> <!-- data -->
+                                                        <p class="text-text">NAMA :</p>
+                                                        <p class="text-purple">John DOe</p> <!-- data -->
+                                                        <p class="text-text">NOMOR TELEPON :</p>
+                                                        <p class="text-purple">08899223344</p> <!-- data -->
                                                         <p class="text-text">KEPERLUAN :</p>
-                                                        <p class="text-purple">Server Hardware Maintenance</p> <!-- data -->
-                                                        <p class="text-text">PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">John Doe</p> <!-- data -->
-                                                        <p class="text-text">NIP PENANGGUNG JAWAB :</p>
-                                                        <p class="text-purple">192839201829327183</p> <!-- data -->
-                                                        <p class="text-text">DAFTAR PENGUNJUNG :</p>
-                                                        <p class="text-purple">Michael Smith</p> <!-- data -->
-                                                        <p class="text-text">DESKRIPSI :</p>
-                                                        <p class="text-purple">Tidak ada deskripsi</p> <!-- data -->
-                                                        <p class="text-text">NOMOR SERIAL :</p>
-                                                        <p class="text-purple">012392</p> <!-- data -->
-                                                        <p class="text-text">MASUK :</p>
-                                                        <p class="text-purple">17:00</p> <!-- data -->
-                                                        <p class="text-text">KELUAR :</p>
-                                                        <p class="text-purple">18:30</p> <!-- data -->
-                                                        <p class="text-text">STATUS :</p>
-                                                        <p class="text-purple">Disetujui</p> <!-- data -->
-                                                        <p class="text-text">NAMA PENYETUJU :</p>
-                                                        <p class="text-purple">Jenny Graham</p> <!-- data -->
-                                                        <p class="text-text">NIP PENYETUJU :</p>
-                                                        <p class="text-purple">102938711829928361</p> <!-- data -->
-                                                        <p class="text-text">JABATAN PENYETUJU :</p>
-                                                        <p class="text-purple">Kepala Security</p> <!-- data -->
-                                                        <p class="text-text">CATATAN :</p>
-                                                        <p class="text-purple">Tidak ada catatan</p> <!-- data -->
+                                                        <p class="text-purple">Kunjungan Bisnis</p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,36 +154,30 @@
                                                     <div class="flex flex-col text-start font-medium">
                                                         <form class="text-text" action="">
 
-                                                            <label for="">TANGGAL :</label><br>
-                                                            <input placeholder="30/08/2023" type="text"><br>
-                                                            <label for="">JAM :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
+                                                            <label for="">NOMOR :</label><br>
+                                                            <input placeholder="12333" type="text"><br>
+                                                            <label for="">SIFAT :</label><br>
+                                                            <input placeholder="STATIC" type="text"><br>
+                                                            <label for="">LAMPIRAN :</label><br>
+                                                            <input placeholder="3" type="text"><br><br>
+                                                            <label for="">PERIHAL :</label><br>
+                                                            <input placeholder="Pengembangan Server" type="text"><br><br>
+                                                            <label for="">NAMA INSTANSI :</label><br>
+                                                            <input placeholder="FIF GROUP" type="text"><br><br>
+                                                            <label for="">TUJUAN :</label><br>
+                                                            <input placeholder="Silaturahmi" type="text"><br><br>
+                                                            <label for="">NAMA :</label><br>
+                                                            <input placeholder="John Doe" type="text"><br><br>
+                                                            <label for="">NOMOR TELEPON :</label><br>
+                                                            <input placeholder="088899444" type="text"><br><br>
                                                             <label for="">KEPERLUAN :</label><br>
-                                                            <input placeholder="Server Hardware Maintenance" type="text"><br>
-                                                            <label for="">PENANGGUNG JAWAB :</label><br>
-                                                            <input placeholder="John Doe" type="text"><br>
-                                                            <label for="">NIP PENANGGUNG JAWAB :</label><br>
-                                                            <input placeholder="192839201829327183" type="text"><br>
-                                                            <label for="">DAFTAR PENGUNJUNG :</label><br>
-                                                            <input placeholder="Michael Smith" type="text"><br>
-                                                            <label for="">DESKRIPSI :</label><br>
-                                                            <input placeholder="Tidak ada deskripsi" type="text"><br>
-                                                            <label for="">NOMOR SERIAL :</label><br>
-                                                            <input placeholder="012392" type="text"><br>
-                                                            <label for="">MASUK :</label><br>
-                                                            <input placeholder="17:00" type="text"><br>
-                                                            <label for="">KELUAR :</label><br>
-                                                            <input placeholder="17:30" type="text"><br>
+                                                            <input placeholder="Kunjungan Bisnis" type="text"><br><br>
+
                                                             <label for="">STATUS :</label><br>
-                                                            <input placeholder="Disetujui" type="text"><br>
-                                                            <label for="">NAMA PENYETUJU :</label><br>
-                                                            <input placeholder="Jenny Graham" type="text"><br>
-                                                            <label for="">NIP PENYETUJU :</label><br>
-                                                            <input placeholder="102938711829928361" type="text"><br>
-                                                            <label for="">JABATAN PENYETUJU :</label><br>
-                                                            <input placeholder="Kepala Security" type="text"><br>
-                                                            <label for="">Catatan :</label><br>
-                                                            <input placeholder="Tidak ada catatan" type="text"><br>
+                                                            <select name="" id="">
+                                                                <option value="">Disetujui</option>
+                                                                <option selected value="">Belum Disetujui</option>
+                                                            </select>
 
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>

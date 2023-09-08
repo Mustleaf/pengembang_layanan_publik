@@ -11,6 +11,14 @@ export default {
 
     theme: {
         extend: {
+
+            screens: {
+                'sm': {'min': '300px'},
+                'md': {'min': '768px', 'max': '991px'},
+                'lg': {'min': '992px', 'max': '1199px'},
+                'xl': {'min': '1200px'},
+            },
+
             fontFamily: {
                 sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
             },

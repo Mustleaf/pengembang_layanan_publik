@@ -31,7 +31,7 @@
 
 
 
-                        <div class="row border rounded">
+                        <div class="row">
                             <div class="col-md-8 mb-2 mt-2">
                                 <h6>Daftar Pengunjung</h6>
                                 <div class="form-outline">
@@ -93,6 +93,15 @@
                                     <div class="form-outline">
                                         <label class="form-label" for="">Keluar :</label>
                                         <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-md-8 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label fs-5" for="">Tambah Data</label>
+                                            <a class="mx-2" href=""><img src="{{asset ('assets/button plus.svg')}}"></a>
+                                            <a class="" href=""><img src="{{asset ('assets/button min.svg')}}"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
