@@ -9,6 +9,9 @@
             <div class="row">
                 <div class="card bg-body-tertiary border rounded">
                     <div class="card-body px-4 py-5 px-md-5">
+
+
+                        {{-- Button tambah dan kurang formulir --}}
                         <div class="row">
                             <div class="grid gap-1 d-flex">
                                 <label class="p-1 g-col-6">Tambah Data</label>
@@ -18,7 +21,10 @@
                                         src="{{ asset('assets/button min.svg') }}"></a>
                             </div>
                         </div>
+                        {{-- Akhir  Button tambah dan kurang formulir --}}
 
+
+                        {{-- Mulai formulir --}}
                         <form id="klon">
                             <div class="row border rounded element">
                                 <div class="row">
@@ -85,39 +91,16 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", function() {
-                                        const container = document.getElementById("klon");
-                                        const elemenAsal = container.querySelector(".element"); // Pilih elemen dalam kontainer
-
-                                        const duplikatButton = document.getElementById("duplikatButton");
-                                        const kurangiButton = document.getElementById("kurangiButton");
-
-                                        duplikatButton.addEventListener("click", function() {
-                                            const elemenBaru = elemenAsal.cloneNode(true); // true untuk menduplikat elemen dan isinya
-                                            elemenBaru.classList.add("mt-3");
-                                            container.appendChild(elemenBaru); // Menambahkan elemen baru ke dalam kontainer yang sama
-                                            kurangiButton.style.display = "block"; // Tampilkan tombol "Kurangi Elemen"
-                                        });
-
-                                        kurangiButton.addEventListener("click", function() {
-                                            const elemenTerakhir = container.lastChild; // Dapatkan elemen terakhir dalam kontainer
-                                            if (elemenTerakhir && elemenTerakhir !== elemenAsal) {
-                                                container.removeChild(elemenTerakhir); // Hapus elemen terakhir jika bukan elemen asal
-                                                // Cek jumlah elemen dalam kontainer, jika tidak ada elemen lagi, sembunyikan tombol "Kurangi Elemen"
-                                                if (container.children.length === 1) {
-                                                    kurangiButton.style.display = "none";
-                                                }
-                                            }
-                                        });
-                                    });
-                                </script>
-
+                            </div>
                         </form>
+                        {{-- akhir formulir --}}
+
+
+
                     </div>
                 </div>
             </div>
+            <!-- button  kirim dan print -->
             <div class="row mt-3">
                 <div class="col-md-4 mb-2">
                     <div class="form-outline">
@@ -126,9 +109,38 @@
                     </div>
                 </div>
             </div>
-
-            <!-- button -->
+            <!-- button  kirim dan print akhir-->
         </div>
-
     </div>
 @endsection
+
+{{-- Script Button tambah dan kurangi formulir --}}
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const container = document.getElementById("klon");
+        const elemenAsal = container.querySelector(".element"); // Pilih elemen dalam kontainer
+
+        const duplikatButton = document.getElementById("duplikatButton");
+        const kurangiButton = document.getElementById("kurangiButton");
+
+        duplikatButton.addEventListener("click", function() {
+            const elemenBaru = elemenAsal.cloneNode(true); // true untuk menduplikat elemen dan isinya
+            elemenBaru.classList.add("mt-3");
+            container.appendChild(elemenBaru); // Menambahkan elemen baru ke dalam kontainer yang sama
+            kurangiButton.style.display = "block"; // Tampilkan tombol "Kurangi Elemen"
+        });
+
+        kurangiButton.addEventListener("click", function() {
+            const elemenTerakhir = container.lastChild; // Dapatkan elemen terakhir dalam kontainer
+            if (elemenTerakhir && elemenTerakhir !== elemenAsal) {
+                container.removeChild(elemenTerakhir); // Hapus elemen terakhir jika bukan elemen asal
+                // Cek jumlah elemen dalam kontainer, jika tidak ada elemen lagi, sembunyikan tombol "Kurangi Elemen"
+                if (container.children.length === 1) {
+                    kurangiButton.style.display = "none";
+                }
+            }
+        });
+    });
+</script>
+{{-- Script Button tambah dan kurangi formulir --}}
+
