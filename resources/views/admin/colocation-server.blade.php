@@ -100,12 +100,42 @@
                                                         <label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
+                                                        <p class="text-text">NOMOR FORMULIR :</p>
+                                                        <p class="text-purple">ASDF345</p> <!-- data -->
                                                         <p class="text-text">INSTANSI :</p>
                                                         <p class="text-purple">PT. SEJAHTERA</p> <!-- data -->
                                                         <p class="text-text">PENANGGUNG JAWAB :</p>
                                                         <p class="text-purple">JOHN DOE</p> <!-- data -->
                                                         <p class="text-text">NIP :</p>
                                                         <p class="text-purple">192839201829327183</p> <!-- data -->
+                                                        <p class="text-text">KONTAK PERSONAL :</p>
+                                                        <p class="text-purple">081212312335546</p> <!-- data -->
+                                                        <p class="text-text">JENIS SERVER :</p>
+                                                        <p class="text-purple">VPS</p> <!-- data -->
+                                                        <p class="text-text">TANGGAL MASUK :</p>
+                                                        <p class="text-purple">08/09/2023</p> <!-- data -->
+                                                        <h1 class="text-highlight text-xl">Formulir Perangkat Colocation</h1>
+                                                        <p class="text-text">NO :</p>
+                                                        <p class="text-purple">2</p> <!-- data -->
+                                                        <p class="text-text">KETERANGAN :</p>
+                                                        <p class="text-purple">LOREM IPSUM</p> <!-- data -->
+                                                        <p class="text-text">NAMA PERANGKAT :</p>
+                                                        <p class="text-purple">SERVER</p> <!-- data -->
+                                                        <p class="text-text">NOMOR SERI :</p>
+                                                        <p class="text-purple">23453245</p> <!-- data -->
+                                                        <p class="text-text">MERK PERANGKAT :</p>
+                                                        <p class="text-purple">ASUS</p> <!-- data -->
+                                                        <h1 class="text-highlight text-xl">Formulir Hak Akses Server</h1>
+                                                        <p class="text-text">NO :</p>
+                                                        <p class="text-purple">2</p> <!-- data -->
+                                                        <p class="text-text">NAMA PERSONIL YANG MEMILIKI HAK AKSES SERVER :</p>
+                                                        <p class="text-purple">JOHN DOE</p> <!-- data -->
+                                                        <p class="text-text">NOMOR HANDPHONE :</p>
+                                                        <p class="text-purple">0812763512313</p> <!-- data -->
+                                                        <p class="text-text">ALAMAT IP :</p>
+                                                        <p class="text-purple">192.168.0.1</p> <!-- data -->
+                                                        <p class="text-text">POSISI SERVER :</p>
+                                                        <p class="text-purple">ASIA</p> <!-- data -->
                                                     </div>
                                                 </div>
                                             </div>
