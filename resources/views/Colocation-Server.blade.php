@@ -10,7 +10,7 @@
                 <div class="card bg-body-tertiary">
                     <div class="card-body px-4 py-5 px-md-5">
 
-
+                        {{-- Colocation Server --}}
                         <form>
                             <h5 class="text-center text-decoration-underline mb-5">Colocation Server</h5>
                             <div class="row " id="klon">
@@ -57,13 +57,15 @@
                                     </div>
                                 </div>
                             </div>
-
                         </form>
+                        {{-- Akhir Colocation Server --}}
 
-                        <form >
 
+
+                        {{-- Formulir Perangkat Colocation --}}
+                        <form id="klon1">
                             <h6>Formulir Perangkat Colocation </h6>
-                            <div class="row border rounded mb-3 mt-2 ">
+                            <div class="row border rounded mb-3 mt-2 element1">
                                 <div class="col-2 mb-2 mt-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">No :</label>
@@ -94,54 +96,55 @@
                                         <input type="text" id="" class="form-control" />
                                     </div>
                                 </div>
-                                <div class="row mt-2">
-                                    <div class="col-md-8 mb-2">
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="grid gap-1 d-flex">
+                                <label class="p-1 g-col-6">Tambah Data</label>
+                                <a class="p-1 g-col-6 btn-sm" id="duplikatButton1">
+                                    <img src="{{ asset('assets/button plus.svg') }}"></a>
+                                <a class="p-1 g-col-6 btn-sm" id="kurangiButton1" style="display: none;">
+                                    <img src="{{ asset('assets/button min.svg') }}"></a>
+                            </div>
+                        </div>
+                        {{-- Akhir Formulir Perangkat Colocation --}}
+
+
+                        {{-- Formulir Hak Akses Server --}}
+                        <form id="klon2">
+                            <div class="row border rounded mb-3 element2">
+                                <h6>Formulir Hak Akses Server</h6>
+                                <div class="row">
+                                    <div class="col-2 mb-2 mt-2">
                                         <div class="form-outline">
-                                            <label class="form-label fs-5" for="">Tambah Data</label>
-                                            <a class="mx-2" href=""><img
-                                                    src="{{ asset('assets/button plus.svg') }}"></a>
-                                            <a class="" href=""><img
-                                                    src="{{ asset('assets/button min.svg') }}"></a>
+                                            <label class="form-label" for="">No :</label>
+                                            <input type="text" id="" class="form-control" />
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-
-                        </form>
-
-                        
-                        <form id="klon2">
-                            <h6>Formulir Hak Akses Server</h6>
-                            <div class="row border rounded mb-3 element">
-                                <div class="col-2 mb-2 mt-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">No :</label>
-                                        <input type="text" id="" class="form-control" />
+                                    <div class="col-7 mb-2 mt-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Nama Personil yang Memiliki Hak Akses
+                                                Server :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-7 mb-2 mt-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Nama Personil yang Memiliki Hak Akses
-                                            Server :</label>
-                                        <input type="text" id="" class="form-control" />
+                                    <div class="col-3 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">No. Hp :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-3 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">No. Hp :</label>
-                                        <input type="text" id="" class="form-control" />
+                                    <div class="col-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Alamat IP :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Alamat IP :</label>
-                                        <input type="text" id="" class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="col-6 mb-2">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="">Posisi Server :</label>
-                                        <input type="text" id="" class="form-control" />
+                                    <div class="col-6 mb-2">
+                                        <div class="form-outline">
+                                            <label class="form-label" for="">Posisi Server :</label>
+                                            <input type="text" id="" class="form-control" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -149,13 +152,16 @@
                         <div class="row">
                             <div class="grid gap-1 d-flex">
                                 <label class="p-1 g-col-6">Tambah Data</label>
-                                <a class="p-1 g-col-6 btn-sm" id="duplikatButton"><img
-                                        src="{{ asset('assets/button plus.svg') }}"></a>
-                                <a class="p-1 g-col-6 btn-sm" id="kurangiButton" style="display: none;"><img
-                                        src="{{ asset('assets/button min.svg') }}"></a>
+                                <a class="p-1 g-col-6 btn-sm" id="duplikatButton2">
+                                    <img src="{{ asset('assets/button plus.svg') }}"></a>
+                                <a class="p-1 g-col-6 btn-sm" id="kurangiButton2" style="display: none;">
+                                    <img src="{{ asset('assets/button min.svg') }}"></a>
                             </div>
                         </div>
-                       
+                        {{-- Akhir  Formulir Hak Akses Server --}}
+
+
+
 
 
                         <h7>Dengan ini saya menyatakan bahwa data di atas adalah benar, dan akan mematuhi peraturan atau
@@ -193,7 +199,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -206,35 +212,68 @@
                 </div>
             </div>
 
+
+
+            {{-- Script Button --}}
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
-                    const container = document.getElementById("klon2");
-                    const elemenAsal = container.querySelector(".element"); // Pilih elemen dalam kontainer
+                    const container1 = document.getElementById("klon1");
+                    const elemenAsal1 = container1.querySelector(".element1"); // Pilih elemen dalam kontainer
 
-                    const duplikatButton = document.getElementById("duplikatButton");
-                    const kurangiButton = document.getElementById("kurangiButton");
+                    const duplikatButton1 = document.getElementById("duplikatButton1");
+                    const kurangiButton1 = document.getElementById("kurangiButton1");
 
-                    duplikatButton.addEventListener("click", function() {
-                        const elemenBaru = elemenAsal.cloneNode(true); // true untuk menduplikat elemen dan isinya
-                        elemenBaru.classList.add("mt-3");
-                        container.appendChild(elemenBaru); // Menambahkan elemen baru ke dalam kontainer yang sama
-                        kurangiButton.style.display = "block"; // Tampilkan tombol "Kurangi Elemen"
+                    duplikatButton1.addEventListener("click", function() {
+                        const elemenBaru1 = elemenAsal1.cloneNode(true); // true untuk menduplikat elemen dan isinya
+                        elemenBaru1.classList.add("mt-3");
+                        container1.appendChild(elemenBaru1); // Menambahkan elemen baru ke dalam kontainer yang sama
+                        kurangiButton1.style.display = "block"; // Tampilkan tombol "Kurangi Elemen"
+                        console.log("berhasil duplikat");
                     });
 
-                    kurangiButton.addEventListener("click", function() {
-                        const elemenTerakhir = container.lastChild; // Dapatkan elemen terakhir dalam kontainer
-                        if (elemenTerakhir && elemenTerakhir !== elemenAsal) {
-                            container.removeChild(elemenTerakhir); // Hapus elemen terakhir jika bukan elemen asal
+                    kurangiButton1.addEventListener("click", function() {
+                        const elemenTerakhir1 = container1.lastChild; // Dapatkan elemen terakhir dalam kontainer
+                        if (elemenTerakhir1 && elemenTerakhir1 !== elemenAsal1) {
+                            container1.removeChild(elemenTerakhir1); // Hapus elemen terakhir jika bukan elemen asal
                             // Cek jumlah elemen dalam kontainer, jika tidak ada elemen lagi, sembunyikan tombol "Kurangi Elemen"
-                            if (container.children.length === 1) {
-                                kurangiButton.style.display = "none";
+                            if (container1.children.length === 1) {
+                                kurangiButton1.style.display = "none";
+                            }
+                        }
+                    });
+                });
+
+
+
+
+                document.addEventListener("DOMContentLoaded", function() {
+                    const container2 = document.getElementById("klon2");
+                    const elemenAsal2 = container2.querySelector(".element2"); // Pilih elemen dalam kontainer
+
+                    const duplikatButton2 = document.getElementById("duplikatButton2");
+                    const kurangiButton2 = document.getElementById("kurangiButton2");
+
+                    duplikatButton2.addEventListener("click", function() {
+                        const elemenBaru2 = elemenAsal2.cloneNode(true); // true untuk menduplikat elemen dan isinya
+                        elemenBaru2.classList.add("mt-3");
+                        container2.appendChild(elemenBaru2); // Menambahkan elemen baru ke dalam kontainer yang sama
+                        kurangiButton2.style.display = "block"; // Tampilkan tombol "Kurangi Elemen"
+                    });
+
+                    kurangiButton2.addEventListener("click", function() {
+                        const elemenTerakhir2 = container2.lastChild; // Dapatkan elemen terakhir dalam kontainer
+                        if (elemenTerakhir2 && elemenTerakhir2 !== elemenAsal2) {
+                            container2.removeChild(elemenTerakhir2); // Hapus elemen terakhir jika bukan elemen asal
+                            // Cek jumlah elemen dalam kontainer, jika tidak ada elemen lagi, sembunyikan tombol "Kurangi Elemen"
+                            if (container2.children.length === 1) {
+                                kurangiButton2.style.display = "none";
                             }
                         }
                     });
                 });
             </script>
+            <!-- Akhir  button -->
 
-            <!-- button -->
         </div>
     </div>
 @endsection
