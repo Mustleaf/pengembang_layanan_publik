@@ -32,7 +32,8 @@
 
   [type='text'],
   [type='date'], 
-  [type='time'] {
+  [type='time'],
+  .detail {
     width: 50%;
     border-color: #DDDDDD;
     border-radius: 4px;

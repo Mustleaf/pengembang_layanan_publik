@@ -174,7 +174,7 @@
 
                                                         </div>
                                                         <br>
-                                                        
+
                                                         <p class="text-text">STATUS :</p>
                                                         <p class="text-purple">Disetujui</p> <!-- data -->
                                                         <p class="text-text">NAMA PENYETUJU :</p>
@@ -185,7 +185,7 @@
                                                         <p class="text-purple">Kepala Security</p> <!-- data -->
                                                         <p class="text-text">CATATAN :</p>
                                                         <p class="text-purple">Tidak ada catatan</p> <!-- data -->
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,30 +207,32 @@
                                                             <input placeholder="" type="time"><br>
 
                                                             <p class="text-black">KEPERLUAN</p><br>
-                                                            <div class="grid grid-rows-1 grid-flow-col gap-x-2">
-                                                                <input type="checkbox" checked="checked" class="checkbox" />
-                                                                <label>Server Hardware Maintenance</label><br>
-                                                                <input type="checkbox" class="checkbox" />
-                                                                <label>Server Software Maintenance</label><br>
-                                                                <input type="checkbox" class="checkbox" />
-                                                                <label>Hanya Berkunjung</label><br>
+                                                            <div class="flex flex-col gap-y-2">
+                                                                <div>
+                                                                    <input type="checkbox" checked="checked" class="checkbox" />
+                                                                    <label>Server Hardware Maintenance</label><br>
+                                                                </div>
+                                                                <div>
+                                                                    <input type="checkbox" class="checkbox" />
+                                                                    <label>Server Software Maintenance</label><br>
+                                                                </div>
+                                                                <div>
+                                                                    <input type="checkbox" class="checkbox" />
+                                                                    <label>Hanya Berkunjung</label>
+                                                                </div>
+                                                                <div>
+                                                                    <input type="checkbox" class="checkbox" />
+                                                                    <label>Server IP</label><br>
+                                                                </div>
+                                                                <div>
+                                                                    <input type="checkbox" class="checkbox" />
+                                                                    <label>Server Hostname</label><br>
+                                                                </div>
+                                                                <div>
+                                                                    <input type="checkbox" class="checkbox" />
+                                                                    <label>Penyelesaian Masalah</label><br>
+                                                                </div>
                                                             </div>
-                                                            <br>
-                                                            <div class="grid grid-rows-1 lg:grid-flow-col gap-x-2">
-                                                                <input type="checkbox" class="checkbox" />
-                                                                <label>Server IP</label><br>
-                                                                <input type="checkbox" class="checkbox" />
-                                                                <label>Server Hostname</label><br>
-                                                                <input type="checkbox" class="checkbox" />
-                                                                <label>Penyelesaian Masalah</label><br>
-                                                            </div>
-
-
-
-
-
-
-
                                                             <br>
                                                             <label for="">PENANGGUNG JAWAB :</label><br>
                                                             <input placeholder="John Doe" type="text"><br>
@@ -256,13 +258,11 @@
                                                             <input placeholder="Kepala Security" type="text"><br>
                                                             <label for="">Catatan :</label><br>
                                                             <input placeholder="Tidak ada catatan" type="text"><br>
-
                                                             <label for="">STATUS :</label><br>
-                                                            <select name="" id="">
+                                                            <select class="detail" name="" id="">
                                                                 <option selected value="">Disetujui</option>
                                                                 <option value="">Belum Disetujui</option>
-                                                            </select>
-
+                                                            </select><br>
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>
                                                     </div>
