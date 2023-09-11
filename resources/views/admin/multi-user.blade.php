@@ -156,7 +156,7 @@
                                                         <p class="text-text">UNIT KERJA :</p>
                                                         <p class="text-purple">Swasta</p> <!-- data -->
                                                         <p class="text-text">ALAMAT EMAIL :</p>
-                                                        <p class="text-purple">janedoe70@gmail.com</p><br> <!-- data -->
+                                                        <p class="text-purple">janedoe70@gmail.com</p> <!-- data -->
                                                         <p class="text-text">TEMPAT TINGGAL :</p>
                                                         <p class="text-purple">Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta</p><br> <!-- data -->
 
