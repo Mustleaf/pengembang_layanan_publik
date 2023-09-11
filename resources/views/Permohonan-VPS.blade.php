@@ -16,25 +16,25 @@
                         <h5 class="text-center text-decoration-underline mb-5">Formulir Permohonan VPS Baru</h5>
                         <h6>Data Pemohon</h6>
                         <div class="row">
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Pemohon :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Instansi :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">NIP :</label>
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Tujuan Pembuatan VPS :</label>
                                     <input type="text" id="" class="form-control" />
@@ -43,8 +43,8 @@
                         </div>
 
                         <div class="row mb-2">
-                            <div class="col-md-8 mt-3">
-                                <h6>Spesifikasi VPS yang diinginkan</h6>
+                            <h6>Spesifikasi VPS yang diinginkan</h6>
+                                <div class="col-md-8 mt-3 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Prosesor :</label>
                                     <input type="text" id="" class="form-control" />
@@ -59,26 +59,24 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mt-3">
+                            <div class="col-md-4 mt-3 text-left">
 
                                 <h6>Hardisk</h6>
                                 <input type="checkbox" name="hardisk[]" value="20 GB"> 20 GB<br>
-                                <input type="checkbox" name="hardisk[]" value="40 GB"> 40 GB<br>
-
+                                <input type="checkbox" name="hardisk[]" value="40 GB"> 40 GB
+            
                                 <h6>RAM</h6>
                                 <input type="checkbox" name="RAM[]" value="1 GB"> 1 GB<br>
                                 <input type="checkbox" name="RAM[]" value="2 GB"> 2 GB<br>
-
+                            
                                 <h6>Akun Akses Non Fisik</h6>
                                 <input type="checkbox" name="Akun Akses Non Fisik[]" value="SSH"> SSH<br>
                                 <input type="checkbox" name="Akun Akses Non Fisik[]" value="Remote Dekstop"> Remote Dekstop<br>
-                            </div>
-                        </div>
-
-                        <h7>Dengan ini saya menyatakan bahwa data di atas adalah benar, dan akan mematuhi peraturan atau tata tertib data center yang berlaku.</h7>
+                            </div>   
+                        <h7>Dengan ini saya menyatakan bahwa data di atas adalah benar, dan akan mematuhi peraturan atau tata tertib data center yang berlaku.</h7>,<br>
 
                         <div class="row">
-                            <div class="col-md-6 mt-3">
+                            <div class="col-md-6 mt-3 text-left">
                                 <h6>Mengetahui</h6>
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama :</label>
@@ -93,7 +91,7 @@
                                     <input type="text" id="" class="form-control" />
                                 </div>
                             </div>
-                            <div class="col-md-6 mt-3">
+                            <div class="col-md-6 mt-3 text-left">
                                 <h6>Pemohon</h6>
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama :</label>
