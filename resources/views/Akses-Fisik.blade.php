@@ -31,8 +31,9 @@
 
 
                         <form id="klon1">
-                            <h6>Daftar Pengunjung</h6>
-                            <div class="row border rounded mb-3 mt-2 element1">
+                        <div class="row border rounded mb-3 mt-2 element1">
+                        <h6>Daftar Pengunjung</h6>        
+                            
                                 <div class="col-6 mb-2 mt-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Nama :</label>
@@ -56,9 +57,9 @@
                         <div class="row">
                             <div class="grid gap-1 d-flex">
                                 <label class="p-1 g-col-6">Tambah Data</label>
-                                <a class="p-1 g-col-6 btn-sm" id="duplikatButton2">
+                                <a class="p-1 g-col-6 btn-sm" id="duplikatButton1">
                                     <img src="{{ asset('assets/button plus.svg') }}"></a>
-                                <a class="p-1 g-col-6 btn-sm" id="kurangiButton2" style="display: none;">
+                                <a class="p-1 g-col-6 btn-sm" id="kurangiButton1" style="display: none;">
                                     <img src="{{ asset('assets/button min.svg') }}"></a>
                             </div>
                         </div>
@@ -75,8 +76,9 @@
                         </div>
 
                         <form id="klon2">
+                        <div class="row border rounded mb-3 mt-2 element2">
                             <h6>Daftar Hardware</h6>
-                            <div class="row border rounded mb-3 mt-2 element1">
+                            
                                 <div class="col-md-4 mb-2 mt-2">
                                     <div class="form-outline">
                                         <label class="form-label" for="">Deskripsi :</label>
