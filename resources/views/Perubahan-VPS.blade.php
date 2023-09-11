@@ -2,11 +2,11 @@
 @section('content')
 
 <div class="container mt-5">
-    <h2>VPS<img src="{{asset ('assets/arrow.svg')}}">Formulir Permohonan Perubahan VPS
+    <h2>VPS<img src="{{asset ('assets/arrow.svg')}}">Formulir Permohonan Perubahan VPS</h2>
 </div>
 
 <div class="container shadow p-3 bg-body-tertiary rounded">
-    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5 w-75 p-3">
+    <div class="container px-4 py-4 px-md-5 text-left text-lg-start my-3 w-80 p-3">
         <div class="row">
             <div class="card bg-body-tertiary">
                 <div class="card-body px-4 py-5 px-md-5">
@@ -79,7 +79,7 @@
 
                         <div class="row">
                             <div class="col-md-6 mt-3">
-                                <h6>Menyetujui</h6>
+                                <h6>Mengetahui</h6>
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama :</label>
                                     <input type="text" id="" class="form-control" />
@@ -114,7 +114,7 @@
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-md-10 mb-2">
+            <div class="col-md-5 mt-2">
                 <div class="form-outline">
                     <button type="button" class="btn btn-primary btn-lg">Kirim</button>
                     <button type="button" class="btn btn-primary btn-lg">Print</button>
