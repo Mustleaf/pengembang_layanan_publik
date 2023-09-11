@@ -62,9 +62,9 @@
                             </dialog>
                         </div>
                         <!-- End Tambah Modal -->
-                    
+
                         <!-- Tabel -->
-                        <table class="min-w-full text-center text-sm font-light">
+                        <table class="min-w-full text-center text-sm font-light md:overflow-x-auto">
                             <thead class="border-b font-medium dark:border-neutral-500">
                                 <tr class="text-text">
                                     <th scope="col" class="px-6 py-2">NO</th>
@@ -115,16 +115,44 @@
                                                         <p class="text-text">TANGGAL MASUK :</p>
                                                         <p class="text-purple">08/09/2023</p> <!-- data -->
                                                         <h1 class="text-highlight text-xl">Formulir Perangkat Colocation</h1>
-                                                        <p class="text-text">NO :</p>
-                                                        <p class="text-purple">2</p> <!-- data -->
-                                                        <p class="text-text">KETERANGAN :</p>
-                                                        <p class="text-purple">LOREM IPSUM</p> <!-- data -->
-                                                        <p class="text-text">NAMA PERANGKAT :</p>
-                                                        <p class="text-purple">SERVER</p> <!-- data -->
-                                                        <p class="text-text">NOMOR SERI :</p>
-                                                        <p class="text-purple">23453245</p> <!-- data -->
-                                                        <p class="text-text">MERK PERANGKAT :</p>
-                                                        <p class="text-purple">ASUS</p> <!-- data -->
+                                                        <div class="grid gap-[3rem] grid-cols-3">
+                                                            <div class="flex flex-col text-start font-medium gap-y-2.5">
+                                                                <p class="text-text">NO :</p>
+                                                                <p class="text-purple">1</p> <!-- data -->
+                                                                <p class="text-text">KETERANGAN :</p>
+                                                                <p class="text-purple">LOREM IPSUM</p> <!-- data -->
+                                                                <p class="text-text">NAMA PERANGKAT :</p>
+                                                                <p class="text-purple">SERVER</p> <!-- data -->
+                                                                <p class="text-text">NOMOR SERI :</p>
+                                                                <p class="text-purple">23453245</p> <!-- data -->
+                                                                <p class="text-text">MERK PERANGKAT :</p>
+                                                                <p class="text-purple">ASUS</p><!-- data -->
+                                                            </div>
+                                                            <div class="flex flex-col text-start font-medium gap-y-2.5">
+                                                                <p class="text-text">NO :</p>
+                                                                <p class="text-purple">2</p> <!-- data -->
+                                                                <p class="text-text">KETERANGAN :</p>
+                                                                <p class="text-purple">LOREM IPSUM</p> <!-- data -->
+                                                                <p class="text-text">NAMA PERANGKAT :</p>
+                                                                <p class="text-purple">SERVER</p> <!-- data -->
+                                                                <p class="text-text">NOMOR SERI :</p>
+                                                                <p class="text-purple">23453245</p> <!-- data -->
+                                                                <p class="text-text">MERK PERANGKAT :</p>
+                                                                <p class="text-purple">ASUS</p> <!-- data -->
+                                                            </div>
+                                                            <div class="flex flex-col text-start font-medium gap-y-2.5">
+                                                                <p class="text-text">NO :</p>
+                                                                <p class="text-purple">3</p> <!-- data -->
+                                                                <p class="text-text">KETERANGAN :</p>
+                                                                <p class="text-purple">LOREM IPSUM</p> <!-- data -->
+                                                                <p class="text-text">NAMA PERANGKAT :</p>
+                                                                <p class="text-purple">SERVER</p> <!-- data -->
+                                                                <p class="text-text">NOMOR SERI :</p>
+                                                                <p class="text-purple">23453245</p> <!-- data -->
+                                                                <p class="text-text">MERK PERANGKAT :</p>
+                                                                <p class="text-purple">ASUS</p> <!-- data -->
+                                                            </div>
+                                                        </div>
                                                         <h1 class="text-highlight text-xl">Formulir Hak Akses Server</h1>
                                                         <p class="text-text">NO :</p>
                                                         <p class="text-purple">2</p> <!-- data -->
@@ -148,15 +176,48 @@
                                                     <div class="modal-action">
                                                         <label for="modal-2" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
                                                     </div>
-                                                    <div class="flex flex-col text-start font-medium">
+                                                    <div class="flex-col text-start font-medium">
                                                         <form class="text-text" action="">
+                                                            <label for="">NOMOR FORMULIR :</label><br>
+                                                            <input placeholder="ASDF345" type="text"><br>
                                                             <label for="">INSTANSI :</label><br>
-                                                            <input type="text"><br>
+                                                            <input placeholder="PT. SEJAHTERA" type="text"><br>
                                                             <label for="">PENANGGUNG JAWAB :</label><br>
-                                                            <input type="text"><br>
+                                                            <input placeholder="JOHN DOE" type="text"><br>
                                                             <label for="">NIP :</label><br>
-                                                            <input type="text"><br><br>
-                                                            <input class="bg-btn px-4 rounded text-white py-2" type="submit">
+                                                            <input placeholder="192839201829327183" type="text"><br>
+                                                            <label for="">KONTAK PERSONAL:</label><br>
+                                                            <input placeholder="081212312335546" type="text"><br>
+                                                            <label for="">JENIS SERVER :</label><br>
+                                                            <input placeholder="VPS" type="text"><br>
+                                                            <label for="">TANGGAL MASUK :</label><br>
+                                                            <input placeholder="30/9/2023" type="text"><br>
+                                                            <label for="">NOMOR TELEPON :</label><br>
+                                                            <input placeholder="088899444" type="text"><br>
+                                                            <label for="">KEPERLUAN :</label><br>
+                                                            <input placeholder="Kunjungan Bisnis" type="text">
+                                                            <h1 class="text-highlight text-xl">Formulir Perangkat Colocation</h1><br>
+                                                            <label for="">NO :</label><br>
+                                                            <input placeholder="1" type="text"><br>
+                                                            <label for="">KETERANGAN :</label><br>
+                                                            <input placeholder="LOREM IPSUM" type="text"><br>
+                                                            <label for="">NAMA PERANGKAT :</label><br>
+                                                            <input placeholder="SERVER" type="text"><br>
+                                                            <label for="">NOMOR SERI :</label><br>
+                                                            <input placeholder="23453245" type="text"><br>
+                                                            <label for="">MERK PERANGKAT :</label><br>
+                                                            <input placeholder="ASUS" type="text"><br>
+                                                            <h1 class="text-highlight text-xl">Formulir Hak Akses Server</h1><br>
+                                                            <label for="">NO :</label><br>
+                                                            <input placeholder="1" type="text"><br>
+                                                            <label for="">KETERANGAN :</label><br>
+                                                            <input placeholder="LOREM IPSUM" type="text"><br>
+                                                            <label for="">NAMA PERANGKAT :</label><br>
+                                                            <input placeholder="SERVER" type="text"><br>
+                                                            <label for="">NOMOR SERI :</label><br>
+                                                            <input placeholder="23453245" type="text"><br>
+                                                            <label for="">MERK PERANGKAT :</label><br>
+                                                            <input placeholder="ASUS" type="text"><br>
                                                         </form>
                                                     </div>
                                                 </div>

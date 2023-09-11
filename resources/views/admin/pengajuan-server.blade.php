@@ -70,10 +70,10 @@
                                             <input placeholder="" type="text"><br><br>
 
                                             <label for="">STATUS :</label><br>
-                                                            <select name="" id="">
-                                                                <option value="">Disetujui</option>
-                                                                <option value="">Belum Disetujui</option>
-                                                            </select>
+                                            <select name="" id="">
+                                                <option value="">Disetujui</option>
+                                                <option value="">Belum Disetujui</option>
+                                            </select>
 
                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                         </form>
@@ -153,32 +153,27 @@
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium">
                                                         <form class="text-text" action="">
-
                                                             <label for="">NOMOR :</label><br>
-                                                            <input placeholder="12333" type="text"><br>
+                                                            <input placeholder="ASDF345" type="text"><br>
                                                             <label for="">SIFAT :</label><br>
                                                             <input placeholder="STATIC" type="text"><br>
                                                             <label for="">LAMPIRAN :</label><br>
-                                                            <input placeholder="3" type="text"><br><br>
+                                                            <input placeholder="3" type="text"><br>
                                                             <label for="">PERIHAL :</label><br>
-                                                            <input placeholder="Pengembangan Server" type="text"><br><br>
+                                                            <input placeholder="Pengembangan Server" type="text"><br>
                                                             <label for="">NAMA INSTANSI :</label><br>
-                                                            <input placeholder="FIF GROUP" type="text"><br><br>
+                                                            <input placeholder="FIF GROUP" type="text"><br>
                                                             <label for="">TUJUAN :</label><br>
-                                                            <input placeholder="Silaturahmi" type="text"><br><br>
+                                                            <input placeholder="Silaturahmi" type="text"><br>
                                                             <label for="">NAMA :</label><br>
-                                                            <input placeholder="John Doe" type="text"><br><br>
+                                                            <input placeholder="JOHN DOE" type="text"><br>
                                                             <label for="">NOMOR TELEPON :</label><br>
-                                                            <input placeholder="088899444" type="text"><br><br>
+                                                            <input placeholder="0888994412344" type="text"><br>
                                                             <label for="">KEPERLUAN :</label><br>
-                                                            <input placeholder="Kunjungan Bisnis" type="text"><br><br>
-
-                                                            <label for="">STATUS :</label><br>
-                                                            <select name="" id="">
+                                                            <select class="detail" name="" id="">
                                                                 <option value="">Disetujui</option>
                                                                 <option selected value="">Belum Disetujui</option>
-                                                            </select>
-
+                                                            </select><br>
                                                             <input class="bg-btn px-4 rounded text-white py-2" type="submit">
                                                         </form>
                                                     </div>
