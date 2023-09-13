@@ -6,7 +6,7 @@
 </div>
 
 <div class="container shadow p-3 bg-body-tertiary rounded">
-    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5 w-75 p-3">
+    <div class="container px-4 py-5 px-md-5 text-left text-lg-start my-3 w-80 p-3">
         <div class="row">
             <div class="card bg-body-tertiary">
                 <div class="card-body px-4 py-5 px-md-5">
@@ -43,8 +43,8 @@
                         </div>
 
                         <div class="row mb-2">
+                        <div class="col-md-8 mt-3 text-left">
                             <h6>Spesifikasi VPS yang diinginkan</h6>
-                                <div class="col-md-8 mt-3 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Prosesor :</label>
                                     <input type="text" id="" class="form-control" />
