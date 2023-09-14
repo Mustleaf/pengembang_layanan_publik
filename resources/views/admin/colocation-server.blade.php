@@ -38,7 +38,7 @@
 
                         <!-- Tambah Modal -->
                         <div class="flex justify-between pb-14">
-                            <button type="submit" class="flex items-center w-[116px] md:w-28 h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</button>
+                            <button type="submit" class="flex items-center w-[116px] md:w-28 lg:w-32 h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]"><img src="{{asset ('assets/search.svg')}}" alt="">Cari</button>
                             <button class="flex items-center w-[116px] h-10 justify-center bg-btn gap-x-2 rounded text-[#FFFFFF]" onclick="my_modal_4.showModal()"><img src="{{asset ('assets/tambah-icon.svg')}}" alt="">Tambah</button>
                             <dialog id="my_modal_4" class="modal">
                                 <form method="dialog" class="modal-box w-11/12 px-8 py-12 max-w-5xl">
