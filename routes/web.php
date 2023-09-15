@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 //Admin
 
-Route::get('/admin', function () {
-    return view('admin');
+Route::get('admin/login', function () {
+    return view('admin/login-admin');
 });
 
 Route::get('/admin/colocation-server', function () {
