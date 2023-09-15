@@ -37,71 +37,96 @@
             <h1 class="fs-5 mb-2 mt-5 text-left">
               Saya yang bertanda tangan di bawah ini :
             </h1>
+            <div class="row text-left">
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Nama Lengkap :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Nama Lengkap :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">NIP :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">NIP :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Pangkat/Golongan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Pangkat/Golongan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Jabatan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Jabatan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
 
             <h1 class="fs-5 mb-2 mt-5 text-left">
               Dengan ini memberikan rekomendasi kepada :
             </h1>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Nama Lengkap :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+            <div class="row text-left">
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Nama Lengkap :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">NIP :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">NIP :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">NIK :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">NIK :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Pangkat/Golongan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Pangkat/Golongan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Jabatan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Jabatan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Instansi :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Instansi :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Unit Kerja :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Unit Kerja :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2 text-left">
-              <label class="form-label" for="form3Example3">Alamat Email :</label>
-              <input type="email" id="" class="form-control" placeholder="………………@kalteng.go.id" />
-            </div>
-
+                                <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                        <label class="form-label" for="">Alamat Email :</label>
+                                        <input type="email" id="" class="form-control" placeholder="………………@kalteng.go.id" />
+                                    </div>
+                                </div>
             <h1 class="fs-5 mb-2 mt-2 text-left">
               Untuk melakukan pendaftaran sertifikat elektronik sekaligus menjadi pemegang sertifikat elektronik yang digunakan pada :
             </h1>
@@ -154,61 +179,83 @@
           <form>
             <!-- 2 column grid layout with text inputs for the first and last names -->
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Nama Lengkap :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+            <div class="row text-left">
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Nama Lengkap :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">NIP :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2 mt-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">NIP :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">NIK :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">NIK :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Pangkat/Golongan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Pangkat/Golongan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Jabatan :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Jabatan :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Unit Kerja :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Unit Kerja :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Instansi :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Instansi :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Kota :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Kota :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Provinsi :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">Provinsi :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Alamat Email :</label>
-              <input type="email" id="" class="form-control" placeholder="………………@kalteng.go.id" />
-            </div>
+                                <div class="col-md-6 mb-2">
+                                <div class="form-outline">
+                                        <label class="form-label" for="">Alamat Email :</label>
+                                        <input type="email" id="" class="form-control" placeholder="………………@kalteng.go.id" />
+                                    </div>
+                                </div>
 
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">No Telepon :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
-
+                                <div class="col-md-6 mb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="">No Telepon :</label>
+                                        <input type="text" id="" class="form-control" />
+                                    </div>
+                                </div>
             <!-- Submit button -->
             <button type="submit" class="btn btn-primary btn-block btn-lg mb-0 mt-2">
               <a href="" class="text-white">Input</a>
