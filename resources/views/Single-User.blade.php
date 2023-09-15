@@ -152,6 +152,34 @@
           <form>
             <!-- 2 column grid layout with text inputs for the first and last names -->
 
+            <h1 class="fs-5 mb-2 mt-5">
+              Saya yang bertanda tangan di bawah ini :
+            </h1>
+            
+            <div class="form-outline mb-2">
+              <label class="form-label" for="form3Example3">Nama Lengkap :</label>
+              <input type="email" id="" class="form-control" placeholder="" />
+            </div>
+
+            <div class="form-outline mb-2">
+              <label class="form-label" for="form3Example3">NIP :</label>
+              <input type="email" id="" class="form-control" placeholder="" />
+            </div>
+
+            <div class="form-outline mb-2">
+              <label class="form-label" for="form3Example3">Pangkat/Golongan :</label>
+              <input type="email" id="" class="form-control" placeholder="" />
+            </div>
+
+            <div class="form-outline mb-2">
+              <label class="form-label" for="form3Example3">Jabatan :</label>
+              <input type="email" id="" class="form-control" placeholder="" />
+            </div>
+
+            <h1 class="fs-5 mb-2 mt-5">
+              Dengan ini memberikan rekomendasi kepada :
+            </h1>
+
             <div class="form-outline mb-2">
               <label class="form-label" for="form3Example3">Nama Lengkap :</label>
               <input type="email" id="" class="form-control" placeholder="" />
@@ -178,33 +206,23 @@
             </div>
 
             <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Unit Kerja :</label>
+              <label class="form-label" for="form3Example3">Instansi:</label>
               <input type="email" id="" class="form-control" placeholder="" />
             </div>
 
             <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Instansi :</label>
+              <label class="form-label" for="form3Example3">Unit kerja :</label>
               <input type="email" id="" class="form-control" placeholder="" />
             </div>
 
             <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Kota :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
-            </div>
-
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">Provinsi :</label>
+              <label class="form-label" for="form3Example3">Unit kerja :</label>
               <input type="email" id="" class="form-control" placeholder="" />
             </div>
 
             <div class="form-outline mb-2">
               <label class="form-label" for="form3Example3">Alamat Email :</label>
               <input type="email" id="" class="form-control" placeholder="………………@kalteng.go.id" />
-            </div>
-
-            <div class="form-outline mb-2">
-              <label class="form-label" for="form3Example3">No Telepon :</label>
-              <input type="email" id="" class="form-control" placeholder="" />
             </div>
 
             <!-- Submit button -->
