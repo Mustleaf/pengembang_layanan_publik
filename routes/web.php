@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VpsbaruController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,7 @@ Route::get('/admin/multi-user', function () {
     return view('admin/multi-user');
 });
 
+// Route::resource('vpsbaru', VpsbaruController::class);
 Route::get('/admin/permohonan-vps', function () {
     return view('admin/permohonan-vps');
 });
@@ -74,9 +76,11 @@ Route::get('/sertifikat-elektronik/multi-user', function () {
     return view('Multi-User');
 });
 
-Route::get('/vps/permohonan-vps', function () {
-    return view('Permohonan-VPS');
-});
+
+Route::resource('/permohonan-VPS', VpsbaruController::class);
+// Route::get('/vps/permohonan-vps', function () {
+//     return view('Permohonan-VPS');
+// });
 
 Route::get('/vps/perubahan-vps', function () {
     return view('Perubahan-VPS');

@@ -9,55 +9,50 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+
+class User extends Authenticatable
 {
-    public function posts()
+    use HasApiTokens, HasFactory, Notifiable;
+
+
+
+    /**
+     * Get all of the prosesform for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function prosesform(): HasMany
     {
-        return $this->hasMany(vpsperubahan::class);
-        return $this->hasMany(vpsbaru::class);
-        return $this->hasMany(aksesfisikdatacenter::class);
-        return $this->hasMany(pengajuanserver::class);
-        return $this->hasMany(colocationserver::class);
-        return $this->hasMany(sertifikatelektronikmulti::class);
-        return $this->hasMany(sertifikatelektroniksingle::class);
+        return $this->hasMany(Prosesform::class);
     }
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
+    ];
 }
-
-
-
-
-// class User extends Authenticatable
-// {
-//     use HasApiTokens, HasFactory, Notifiable;
-
-//     /**
-//      * The attributes that are mass assignable.
-//      *
-//      * @var array<int, string>
-//      */
-//     protected $fillable = [
-//         'name',
-//         'email',
-//         'password',
-//     ];
-
-//     /**
-//      * The attributes that should be hidden for serialization.
-//      *
-//      * @var array<int, string>
-//      */
-//     protected $hidden = [
-//         'password',
-//         'remember_token',
-//     ];
-
-//     /**
-//      * The attributes that should be cast.
-//      *
-//      * @var array<string, string>
-//      */
-//     protected $casts = [
-//         'email_verified_at' => 'datetime',
-//         'password' => 'hashed',
-//     ];
-// }

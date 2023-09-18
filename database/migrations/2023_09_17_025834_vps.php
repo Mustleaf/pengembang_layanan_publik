@@ -11,19 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('vps_baru', function (Blueprint $table) {
-            $table->Increments('id_vps_baru');
-            $table->Integer('id_layanan');
-            $table->String('nama_pemohon');
-            $table->String('instansi');
-            $table->String('nip');
-            $table->String('tujuan_pembuatan_vps');
+        Schema::create('vps', function (Blueprint $table) {
+            $table->Increments('id_vps');
+            $table->Integer('id_data_center');
+            $table->String('nama_vps');
             $table->String('prosesor');
             $table->String('sistem_operasi');
-            $table->boolean('hard_disk')->default(false);
-            $table->boolean('ram')->default(false);
+            $table->Integer('hard_disk');
+            $table->Integer('ram');
             $table->String('ip_address');
-            $table->boolean('akun_akses_non_fisik')->default(false);
+            $table->boolean('ssh');
             $table->timestamp('created_at');
         });
     }

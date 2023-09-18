@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class colocationserver extends Model
+class Sertifikatelsingle extends Model
 {
     use HasFactory;
-    protected $guarded = ['id_colocation_server'];
+    protected $guarded = ['id_sertif_elektronik_single'];
     public function prosesform(): HasMany
     {
         return $this->hasMany(Prosesform::class);

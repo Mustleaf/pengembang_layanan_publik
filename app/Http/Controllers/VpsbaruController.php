@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\vpsbaru;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class VpsbaruController extends Controller
 {
@@ -12,7 +13,7 @@ class VpsbaruController extends Controller
      */
     public function index()
     {
-        //
+        return view('permohonan-VPS');
     }
 
     /**
@@ -20,7 +21,7 @@ class VpsbaruController extends Controller
      */
     public function create()
     {
-        //
+        return view('permohonan-VPS');
     }
 
     /**
@@ -28,7 +29,31 @@ class VpsbaruController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Session::flash('nama_pemohon');
+        Session::flash('instansi');
+        Session::flash('nip');
+        Session::flash('tujuan_pembuatan_vps');
+        Session::flash('prosesor');
+        Session::flash('sistem_operasi');
+        // Session::flash('hardisk');
+        // Session::flash('ram');
+        Session::flash('ip_address');
+
+      $data=$request->validate([
+            'nama_pemohon'=>'required',
+            'instansi'=>'required',
+            'nip'=>'required',
+            'tujuan_pembuatan_vps'=>'required',
+            'prosesor'=>'required',
+            'sistem_operasi'=>'required',
+            // 'hardisk'=>'required',
+            // 'ram'=>'required',
+            'ip_address'=>'required'
+            // 'akun_akses_non_fisik'
+        ]);
+        dd($data);
+        Item::create($data);
+        return redirect()->to('permohonan-VPS');
     }
 
     /**
