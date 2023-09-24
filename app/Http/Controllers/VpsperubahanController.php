@@ -13,7 +13,7 @@ class VpsperubahanController extends Controller
      */
     public function index()
     {
-        
+        return view('perubahan-VPS');
     }
 
     /**
@@ -21,7 +21,7 @@ class VpsperubahanController extends Controller
      */
     public function create()
     {
-        
+        return view('perubahan-VPS');
     }
 
     /**

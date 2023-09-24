@@ -11,8 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('vps_baru', function (Blueprint $table) {
-            $table->Increments('id_vps_baru');
+        Schema::create('vpsbarus', function (Blueprint $table) {
+            $table->id();
             $table->Integer('id_layanan');
             $table->String('nama_pemohon');
             $table->String('instansi');
@@ -23,7 +23,7 @@ return new class extends Migration
             $table->boolean('hard_disk')->default(false);
             $table->boolean('ram')->default(false);
             $table->String('ip_address');
-            $table->boolean('akun_akses_non_fisik')->default(false);
+            $table->boolean('akun_akses_non_fisik');
             $table->timestamp('created_at');
         });
     }

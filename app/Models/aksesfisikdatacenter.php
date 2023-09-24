@@ -13,4 +13,5 @@ class aksesfisikdatacenter extends Model
     {
         return $this->hasMany(Prosesform::class);
     }
+    
 }

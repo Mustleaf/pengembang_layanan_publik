@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Server extends Model
 {
     use HasFactory;
+    public function Data_center(): BelongsTo
+    {
+        return $this->belongsTo(Data_center::class);
+    }
 }

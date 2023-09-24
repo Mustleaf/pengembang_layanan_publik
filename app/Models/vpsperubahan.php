@@ -13,4 +13,13 @@ class vpsperubahan extends Model
     {
         return $this->hasMany(Prosesform::class);
     }
+    /**
+     * Get the user that owns the vpsperubahan
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function Layanan(): BelongsTo
+    {
+        return $this->belongsTo(Layanan::class);
+    }
 }

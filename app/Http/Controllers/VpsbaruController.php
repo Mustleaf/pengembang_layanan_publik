@@ -29,31 +29,48 @@ class VpsbaruController extends Controller
      */
     public function store(Request $request)
     {
-        Session::flash('nama_pemohon');
-        Session::flash('instansi');
-        Session::flash('nip');
-        Session::flash('tujuan_pembuatan_vps');
-        Session::flash('prosesor');
-        Session::flash('sistem_operasi');
-        // Session::flash('hardisk');
-        // Session::flash('ram');
-        Session::flash('ip_address');
-
-      $data=$request->validate([
-            'nama_pemohon'=>'required',
-            'instansi'=>'required',
-            'nip'=>'required',
-            'tujuan_pembuatan_vps'=>'required',
-            'prosesor'=>'required',
-            'sistem_operasi'=>'required',
-            // 'hardisk'=>'required',
-            // 'ram'=>'required',
-            'ip_address'=>'required'
-            // 'akun_akses_non_fisik'
+        $nama_pemohon=$request->input('nama_pemohon');
+        $instansi=$request->input('instansi');
+        $nip=$request->input('nip');
+        $tujuan_pembuatan_vps=$request->input('tujuan_pembuatan_vps');
+        $prosesor=$request->input('prosesor');
+        $ip_address=$request->input('ip_address');
+        $sistem_operasi=$request->input('sistem_operasi');
+        $hardisk=$request->has('hardisk');
+        $ram=$request->has('ram');
+        $akun_akses_non_fisik=$request->has('akun_akses_non_fisik');
+        // $arr=array($request->all());
+        // dd($arr);
+        $vps_baru = new VpsBaru([
+            'nama_pemohon'=>$nama_pemohon,
+            'instansi'=>$instansi,
+            'nip'=>$nip,
+            'tujuan_pembuatan_vps'=>$tujuan_pembuatan_vps,
+            'prosesor'=>$prosesor,
+            'ip_address'=>$ip_address,
+            'sistem_operasi'=>$sistem_operasi,
+            'hard_disk'=>$hardisk,
+            'ram'=>$ram,
+            'akun_akses_non_fisik'=>$akun_akses_non_fisik,
+            'id_layanan'=>1,
+            'created_at'=>date('Y-m-d H:i:s')
         ]);
-        dd($data);
-        Item::create($data);
-        return redirect()->to('permohonan-VPS');
+        // dd($vpsbaru);
+        $vps_baru->save();
+        return redirect('permohonan-VPS');
+        
+        // $request->validate([
+        //     'nama_pemohon'=>'required',
+        //     'instansi'=>'required',
+        //     'nip'=>'required',
+        //     'tujuan_pembuatan_vps'=>'required',
+        //     'prosesor'=>'required',
+        //     'ip_address'=>'required',
+        //     'sistem_operasi'=>'required',
+        //     'hardisk'=>'required|in:20gb,40gb',
+        //     'ram'=>'required|in:1gb,2gb',
+        //     'akun_akses_non_fisik'=>'required'
+        // ]);
     }
 
     /**

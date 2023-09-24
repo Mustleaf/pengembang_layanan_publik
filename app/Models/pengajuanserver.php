@@ -13,4 +13,8 @@ class pengajuanserver extends Model
     {
         return $this->hasMany(Prosesform::class);
     }
+    public function Layanan(): BelongsTo
+    {
+        return $this->belongsTo(Layanan::class);
+    }
 }

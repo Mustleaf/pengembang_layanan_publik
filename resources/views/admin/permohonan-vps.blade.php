@@ -105,10 +105,11 @@
                             </thead>
                             <tbody>
                                 <tr class="border-b dark:border-neutral-500">
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">1</td>
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">12333</td>
-                                    <td class="whitespace-nowrap px-6 py-2 font-medium">George Griffith</td>
-                                    <td class="whitespace-nowrap px-6 py-2">129382938127382192</td>
+                                    @foreach ($vps as $v)
+                                    <td class="whitespace-nowrap px-6 py-2">{{ $loop->iteration }}</td>
+                                    <td class="whitespace-nowrap px-6 py-2">{{ $v->no_tiket}}</td>
+                                    <td class="whitespace-nowrap px-6 py-2">{{ $v->nama_pemohon}}</td>
+                                    <td class="whitespace-nowrap px-6 py-2">{{ $v->nip }}</td>
                                     <td class="whitespace-nowrap px-6 py-2">FIF GROUP</td>
                                     <td class="whitespace-nowrap px-6 py-2">Memperbesar Server</td>
                                     <td class="whitespace-nowrap px-6 py-2">Disetujui</td>
@@ -129,7 +130,7 @@
                                                     </div>
                                                     <div class="flex flex-col text-start font-medium gap-y-2.5">
                                                         <p class="text-text">PEMOHON :</p>
-                                                        <p class="text-purple">George Griffith</p> <!-- data -->
+                                                        <p class="text-purple">{{$v->nama_pemohon}}</p> <!-- data -->
                                                         <p class="text-text">NIP :</p>
                                                         <p class="text-purple">129382938127382192</p> <!-- data -->
                                                         <p class="text-text">INSTANSI :</p>
@@ -224,6 +225,7 @@
 
                                         </div>
                                     </td>
+                                    @endforeach
                                 </tr>
                             </tbody>
                         </table>

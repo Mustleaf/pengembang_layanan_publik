@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VpsbaruController;
+use App\Http\Controllers\MultiuserController;
+use App\Http\Controllers\VpsperubahanController;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\vpsbaru;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +25,7 @@ Route::get('admin/login', function () {
 
 Route::get('/admin/colocation-server', function () {
     return view('admin/colocation-server');
+        
 });
 
 Route::get('/admin/akses-fisik', function () {
@@ -39,7 +42,9 @@ Route::get('/admin/multi-user', function () {
 
 // Route::resource('vpsbaru', VpsbaruController::class);
 Route::get('/admin/permohonan-vps', function () {
-    return view('admin/permohonan-vps');
+    return view('admin/permohonan-vps', [
+        'vps' => vpsbaru::orderBy('id', 'desc')->get()
+    ]);
 });
 
 Route::get('/admin/perubahan-vps', function () {
@@ -56,9 +61,9 @@ Route::get('/admin/pengajuan-server', function () {
 
 // Public
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+// Route::get('/', function () {
+//     return view('admin/');
+// });
 
 Route::get('/server/colocation-server', function () {
     return view('Colocation-Server');
@@ -72,19 +77,20 @@ Route::get('/sertifikat-elektronik/single-user', function () {
     return view('Single-User');
 });
 
-Route::get('/sertifikat-elektronik/multi-user', function () {
-    return view('Multi-User');
-});
+Route::resource('/Multi-User', MultiuserController::class);
+// Route::get('/sertifikat-elektronik/multi-user', function () {
+//     return view('Multi-User');
+// });
 
 
 Route::resource('/permohonan-VPS', VpsbaruController::class);
 // Route::get('/vps/permohonan-vps', function () {
 //     return view('Permohonan-VPS');
 // });
-
-Route::get('/vps/perubahan-vps', function () {
-    return view('Perubahan-VPS');
-});
+Route::resource('/perubahan-VPS',VpsperubahanController::class);
+// Route::get('/vps/perubahan-vps', function () {
+//     return view('Perubahan-VPS');
+// });
 
 Route::get('/vps/pengajuan-server', function () {
     return view('Pengajuan-Server');

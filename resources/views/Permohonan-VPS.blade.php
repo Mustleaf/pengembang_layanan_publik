@@ -20,25 +20,25 @@
                             <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Nama Pemohon :</label>
-                                    <input type="text" value="{{Session::get('nama_pemohon')}}" id="nama_pemohon" name="nama_pemohon" class="form-control" />
+                                    <input type="text" id="nama_pemohon" name="nama_pemohon" class="form-control" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Instansi :</label>
-                                    <input type="text" value="{{Session::get('instansi')}}" id="instansi" name="instansi" class="form-control" />
+                                    <input type="text" id="instansi" name="instansi" class="form-control" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">NIP :</label>
-                                    <input type="text" value="{{Session::get('nip')}}" id="nip" name="nip" class="form-control" />
+                                    <input type="text" id="nip" name="nip" class="form-control" />
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 text-left">
                                 <div class="form-outline">
                                     <label class="form-label" for="">Tujuan Pembuatan VPS :</label>
-                                    <input type="text" value="{{Session::get('tujuan_pembuatan_vps')}}" id="tujuan_pembuatan_vps" value="tujuan_pembuatan" class="form-control" />
+                                    <input type="text" id="tujuan_pembuatan_vps" name="tujuan_pembuatan_vps" class="form-control" />
                                 </div>
                             </div>
                         </div>
@@ -48,15 +48,15 @@
                             <h6>Spesifikasi VPS yang diinginkan</h6>
                                 <div class="form-outline">
                                     <label class="form-label" for="">Prosesor :</label>
-                                    <input type="text" value="{{Session::get('prosesor')}}" id="prosesor" name="prosesor" class="form-control" />
+                                    <input type="text" id="prosesor" name="prosesor" class="form-control" />
                                 </div>
                                 <div class="form-outline">
                                     <label class="form-label" for="">IP Address :</label>
-                                    <input type="text" value="{{Session::get('ip_address')}}" id="ip_address" name="ip_address" class="form-control" />
+                                    <input type="text" id="ip_address" name="ip_address" class="form-control" />
                                 </div>
                                 <div class="form-outline">
                                     <label class="form-label" for="">Sistem Operasi :</label>
-                                    <input type="text" value="{{Session::get('sistem_operasi')}}" id="sistem_operasi" name="sistem_operasi" class="form-control" />
+                                    <input type="text" id="sistem_operasi" name="sistem_operasi" class="form-control" />
                                 </div>
                             </div>
                            
@@ -75,7 +75,7 @@
                                 <input type="checkbox" name="akun_akses_non_fisik" value="ssh"> SSH<br>
                                 <input type="checkbox" name="akun_akses_non_fisik" value="remotedesktop"> Remote Dekstop<br>
                             </div>   
-                            <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                            {{-- <button type="submit" class="btn btn-primary" name="submit">Submit</button> --}}
                         <h7>Dengan ini saya menyatakan bahwa data di atas adalah benar, dan akan mematuhi peraturan atau tata tertib data center yang berlaku.</h7>,<br>
                         </form>
                         <div class="row">

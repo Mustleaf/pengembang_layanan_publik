@@ -11,8 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('sertifikat_elektronik_multi', function (Blueprint $table) {
-            $table->increments('id_sertif_elektronik_multi');
+        Schema::create('sertifikatelmultis', function (Blueprint $table) {
+            $table->id();
             $table->Integer('id_layanan');
             $table->String('nomor');
             $table->String('nama_lengkap');
@@ -21,12 +21,12 @@ return new class extends Migration
             $table->String('jabatan');
             $table->String('instansi');
             $table->String('unit_kerja');
-            $table->Integer('alamat_email');
+            $table->String('alamat_email');
             $table->String('tempat_tinggal');
             $table->String('provinsi');
             $table->Binary('ttd_pemohon');
             $table->jsonb('daftar_rekomendasi');
-            $table->timestamp('created_at');
+            $table->timestamps();
         });
     }
 
